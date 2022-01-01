@@ -1021,7 +1021,7 @@ Server Push를 유사하게 구현한 방식. 위의 문제는 해결하지만 �
     
 - 핸드쉐이크/리스폰스: 핸드쉐이크 요청에 대하여 `101 Switching Protocol`로 응답
     
-    ```json
+    ```java
     HTTP/1.1 101 Switching Protocols
     Upgrade: websocket
     Connection: Upgrade
