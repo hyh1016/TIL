@@ -362,7 +362,7 @@ HTTP/1.1 에서는 가상 호스트 라는 기능을 통해 하나의 HTTP 서�
 
 > 서버, 클라이언트 역할을 모두 수행하는 중계 프로그램
 - **캐시를 위해서 사용**하거나 **액세스 관련 목적으로 사용**
-- 해당 프록시 서버를 공유할 때마다 `**via: 프록시 서버명**` 헤더를 추가해야 함
+- 해당 프록시 서버를 공유할 때마다 `via: 프록시 서버명` 헤더를 추가해야 함
 
 ### 프록시의 종류
 
@@ -764,7 +764,7 @@ Range Request 시 사용
 #### 해결책
 
 - 현재로서는 확실하고 편리한 방법이 HTTP에는 존재하지 않음
-- 따라서 `**HTTPS**`를 이용하여 보증
+- 따라서 `HTTPS`를 이용하여 보증
 
 ## 결론
 
@@ -841,20 +841,20 @@ HTTP + 암호화 + 인증 + 완전성 보호 ⇒ HTTPS
 
 1. **클라이언트가 리퀘스트 송신**
 
-    ```json
+    ```java
     GET /users HTTP/1.1
     ```
 
 2. **인증이 필요한 요청이라면 서버는 다음과 같이 응답**
 
-    ```json
+    ```java
     HTTP/1.1 401 Authorization Required
     WWW-Authenticate: Basic realm="message."
     ```
 
 3. **유저는 ID와 패스워드를 Base64로 인코딩하여 송신**
 
-    ```json
+    ```java
     GET /users HTTP/1.1
     Authorization: Basic Wlq2DpQhSOWNJ18=
     ```
@@ -1008,12 +1008,12 @@ Server Push를 유사하게 구현한 방식. 위의 문제는 해결하지만 �
 - 통신량 삭감: 웹소켓 통신은 한 번 확립되면 접속을 유지하며, 헤더 사이즈가 작다.
 - 핸드쉐이크/리퀘스트: `Upgrade: websocket` 헤더를 사용하여 핸드쉐이크를 실시
     
-    ```json
+    ```java
     GET /chat HTTP/1.1
     Host: server.example.com
-    **Upgrade: websocket
+    Upgrade: websocket
     Connection: Upgrade
-    Sec-Websocket-Key: dnDododabcdefg==**
+    Sec-Websocket-Key: dnDododabcdefg==
     Origin: http://example.com
     Sec-Websocket-Protocol: chat, superchat
     Sec-Websocket-Version: 13
@@ -1023,10 +1023,10 @@ Server Push를 유사하게 구현한 방식. 위의 문제는 해결하지만 �
     
     ```json
     HTTP/1.1 101 Switching Protocols
-    **Upgrade: websocket
+    Upgrade: websocket
     Connection: Upgrade
-    Sec-Websocket-Accept: tmdnlclgkzhDjswpskdhk==** // Sec-Websocket-Key에서 생성된 값
-    **Sec-Websocket-Protocol: chat**
+    Sec-Websocket-Accept: tmdnlclgkzhDjswpskdhk== // Sec-Websocket-Key에서 생성된 값
+    Sec-Websocket-Protocol: chat
     ```
     
     핸드쉐이크 요청/응답까지는 HTTP 프로토콜로의 통신이지만
