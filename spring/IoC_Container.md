@@ -12,7 +12,8 @@ IoC는 Inversion of Control(제어 반전)의 축약어이다.
 
 A, B, C, D 네 개의 클래스가 있고 다음의 관계를 갖는다고 하자.
 
-![Untitled](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd2474e86-8ccb-4842-be1c-370d9c27a0a7%2FUntitled.png?table=block&id=20e81536-ece7-46f8-95b2-966a484206e8&spaceId=37ed71b0-1024-46e2-8045-b8a1317e3f47&width=2000&userId=7bd2a4fe-9bd2-4cd4-9166-868cab605fe5&cache=v2)
+![IoC Container](https://user-images.githubusercontent.com/59721541/150288690-0ed13bb6-eb8e-45f9-8ee8-0a29a755a540.png)
+
 
 결합성이 높은 프로그램의 경우 A 안에서 B를 생성하는 형식으로 결합되기 때문에 `A-B-C-D` 순서로 생성된다.
 
