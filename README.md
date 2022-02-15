@@ -11,8 +11,8 @@
 
 ## algorithm
 
-- [Brute_Force_Search](/algorithm/Brute_Force_Search.md)
-- [DFS_BFS](/algorithm/DFS_BFS.md)
+- [Brute Force Search](/algorithm/Brute_Force_Search.md)
+- [DFS BFS](/algorithm/DFS_BFS.md)
 - [Greedy](/algorithm/Greedy.md)
 - [Sort](/algorithm/Sort.md)
 
@@ -28,8 +28,8 @@
 
 ## network
 
-- [OSI_7_Layer](/network/OSI_7_Layer.md)
-- [그림으로_배우는_http_&_network_basic](/network/그림으로_배우는_http_&_network_basic.md)
+- [OSI 7 Layer](/network/OSI_7_Layer.md)
+- [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
 
 ## OS
 
@@ -39,22 +39,22 @@
 - [cookie-session](/server/cookie-session.md)
 - [jwt](/server/jwt.md)
 - [OAuth](/server/OAuth.md)
-- [정적_서버와_동적_서버](/server/정적_서버와_동적_서버.md)
+- [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
 
 ## spring
 
 - [AOP](/spring/AOP.md)
 - [Autowired](/spring/Autowired.md)
-- [Bean_Scope](/spring/Bean_Scope.md)
-- [Component_Scan](/spring/Component_Scan.md)
-- [Component_vs_Bean](/spring/Component_vs_Bean.md)
-- [Configuration_분리](/spring/Configuration_분리.md)
+- [Bean Scope](/spring/Bean_Scope.md)
+- [Component Scan](/spring/Component_Scan.md)
+- [Component vs Bean](/spring/Component_vs_Bean.md)
+- [Configuration 분리](/spring/Configuration_분리.md)
 - [DI](/spring/DI.md)
-- [IoC_Container](/spring/IoC_Container.md)
+- [IoC Container](/spring/IoC_Container.md)
 
 ### jpa
 
-- [Dirty_Checking](/spring/jpa/Dirty_Checking.md)
+- [Dirty Checking](/spring/jpa/Dirty_Checking.md)
 
 ### spring-security
 
@@ -63,5 +63,5 @@
 
 ### springboot
 
-- [Spring_Web_Layer](/spring/springboot/Spring_Web_Layer.md)
-- [Spring_Bean_Life_Cycle](/spring/Spring_Bean_Life_Cycle.md)
+- [Spring Web Layer](/spring/springboot/Spring_Web_Layer.md)
+- [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
