@@ -43,7 +43,7 @@ def print_file(file, path):
     backslash = '\\'
     filename = file.split('.')[0]
     readme_template += '-' + ' ' + \
-        f'[{filename}]({path.replace(root, "").replace(backslash, "/")})' + '\n'
+        f'[{filename.replace("_", " ")}]({path.replace(root, "").replace(backslash, "/")})' + '\n'
 
 
 exclude = ['.git', 'readme-manager.py', 'README.md']  # README에서 제외할 디렉토리
