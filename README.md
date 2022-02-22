@@ -55,13 +55,24 @@
 ### jpa
 
 - [Dirty Checking](/spring/jpa/Dirty_Checking.md)
+- [Profile](/spring/Profile.md)
+- [Properties](/spring/Properties.md)
+
+### spring-boot
+
+- [spring-boot](/spring/spring-boot/spring-boot.md)
+- [Spring Web Layer](/spring/spring-boot/Spring_Web_Layer.md)
+
+### spring-mvc
+
+- [exception-handling](/spring/spring-mvc/exception-handling.md)
+- [Filter](/spring/spring-mvc/Filter.md)
+- [Interceptor](/spring/spring-mvc/Interceptor.md)
+- [RestController](/spring/spring-mvc/RestController.md)
+- [spring-mvc](/spring/spring-mvc/spring-mvc.md)
+- [Validator](/spring/spring-mvc/Validator.md)
 
 ### spring-security
 
-- [jwt](/spring/spring-security/jwt.md)
-- [oauth](/spring/spring-security/oauth.md)
-
-### springboot
-
-- [Spring Web Layer](/spring/springboot/Spring_Web_Layer.md)
 - [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
+- [Thymeleaf](/spring/Thymeleaf.md)
