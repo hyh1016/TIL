@@ -11,32 +11,37 @@
 
 ## algorithm
 
+- [Binary Search](/algorithm/Binary_Search.md)
 - [Brute Force Search](/algorithm/Brute_Force_Search.md)
 - [DFS BFS](/algorithm/DFS_BFS.md)
+- [Dijkstra](/algorithm/Dijkstra.md)
+- [Dynamic Programming](/algorithm/Dynamic_Programming.md)
+- [Floyd-Warshall](/algorithm/Floyd-Warshall.md)
 - [Greedy](/algorithm/Greedy.md)
 - [Sort](/algorithm/Sort.md)
-
-## computer-architecture
-
 
 ## data-structure
 
 - [stack-queue](/data-structure/stack-queue.md)
 
-## java
+## design-pattern
 
+- [UML](/design-pattern/UML.md)
+- [객체지향 패러다임](/design-pattern/객체지향_패러다임.md)
+
+## git
+
+- [자주 사용하는 Git 명령어 모음](/git/자주_사용하는_Git_명령어_모음.md)
 
 ## network
 
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
 
-## OS
-
-
 ## server
 
 - [cookie-session](/server/cookie-session.md)
+- [HTTP와 HTTPS](/server/HTTP와_HTTPS.md)
 - [jwt](/server/jwt.md)
 - [OAuth](/server/OAuth.md)
 - [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
