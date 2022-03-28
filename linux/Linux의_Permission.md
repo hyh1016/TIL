@@ -76,3 +76,25 @@ User(Owner), Group, Other에 대한 권한 비트 이외에도 특별한 모드�
 - 4: 해당 파일을 setuid 파일로 선언한다.
 - 2: 해당 파일을 setgid 파일로 선언한다.
 - 1: 해당 디렉토리에 sticky bit를 적용한다.
+
+### setuid
+
+해당 파일의 실행 도중 owner 권한이 필요한 동작을 수행하기 위해 실행자에게 owner 권한을 부여하는 기능이다.
+
+setuid 프로그램은 실행 중에는 EUID(Effective User ID)가 파일의 owner로 변경된다. 즉, 파일 실행 중에는 파일 소유자의 권한을 얻는 것이다.
+
+때문에 root 소유의 파일을 setuid 프로그램으로 만드는 것은 매우 주의해야 한다.
+
+### setgid
+
+해당 파일의 실행자에게 해당 파일의 group 권한을 부여하는 기능이다.
+
+### sticky bit
+
+`공용 디렉토리`를 선언하기 위한 비트. 디렉토리에만 적용 가능하며 나머지에 적용할 시 무시된다.
+
+해당 특수 권한 비트가 적용된 디렉토리는 누구든 상관없이 파일/디렉토리를 생성할 수 있으나 해당 파일/디렉토리의 소유자 또는 root가 아니라면 수정과 삭제는 불가능하다.
+
+아래와 같이 Others의 실행 권한이 표기되는 위치에 소문자 t가 표기되는 경우 sticky bit가 적용된 것이다.
+
+![Sticky Bits](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/350dab82-3acc-4746-a43d-97c640445eb7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220328%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220328T062044Z&X-Amz-Expires=86400&X-Amz-Signature=26ee4f1ecb1f7059b804ca48cda17de89a4f4447ea235f284146289882fa28f7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
