@@ -1,4 +1,4 @@
-# ✒ Adapter Pattern
+# 📜 Adapter Pattern
 
 ## Adapter Pattern (어댑터 패턴)
 
@@ -7,7 +7,7 @@
 ### 구성
 
 - `Client` - Adaptee를 이용하고자 하는 객체를 뜻한다.
-- `Target (Interface)` - 원래라면 Adaptee와 직접적으로 연결되어야 하나 호환성 문제로 연결되지 않는 상위 개념
+- `Target` - 원래라면 Adaptee와 직접적으로 연결되어야 하나 호환성 문제로 연결되지 않는 상위 개념
 - `Adapter` - Target을 구현하고 Adaptee의 기능을 이용하는 어댑터
 - `Adaptee` - 이용하고자 하는 클래스. 보통 레거시 코드나, 내부를 건드릴 수 없는 경우(외부 라이브러리 등) 등이 이에 해당
 
