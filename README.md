@@ -20,18 +20,31 @@
 - [Greedy](/algorithm/Greedy.md)
 - [Sort](/algorithm/Sort.md)
 
+## computer-architecture
+
+
 ## data-structure
 
 - [stack-queue](/data-structure/stack-queue.md)
 
 ## design-pattern
 
+- [Adapter Pattern](/design-pattern/Adapter_Pattern.md)
+- [Bridge Pattern](/design-pattern/Bridge_Pattern.md)
+- [Class Diagram](/design-pattern/Class_Diagram.md)
+- [Composite Pattern](/design-pattern/Composite_Pattern.md)
+- [Facade Pattern](/design-pattern/Facade_Pattern.md)
+- [SOLID](/design-pattern/SOLID.md)
 - [UML](/design-pattern/UML.md)
 - [객체지향 패러다임](/design-pattern/객체지향_패러다임.md)
 
 ## git
 
 - [자주 사용하는 Git 명령어 모음](/git/자주_사용하는_Git_명령어_모음.md)
+
+## linux
+
+- [Linux의 Permission](/linux/Linux의_Permission.md)
 
 ## network
 
@@ -40,6 +53,7 @@
 
 ## server
 
+- [CI&CD](/server/CI&CD.md)
 - [cookie-session](/server/cookie-session.md)
 - [HTTP와 HTTPS](/server/HTTP와_HTTPS.md)
 - [jwt](/server/jwt.md)
