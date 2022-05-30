@@ -2,7 +2,7 @@
 
 ## Builder Pattern (빌더 패턴)
 
-![Builder-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/40aaa367-d9f4-4c41-90bd-316772101c0e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220530T014801Z&X-Amz-Expires=86400&X-Amz-Signature=cda027b99473d4ebc172891599ac4f67a94223773ec9296312bb400b33522c97&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Builder-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1c7e8012-fdc4-4c07-a9a8-3fcbc877aa4d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220530T021615Z&X-Amz-Expires=86400&X-Amz-Signature=7f791ed8c8d381be2fcfdc30d9634071bc7be06a4295548fce98a3e236a1f375&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 일반적으로 객체를 생성할 때에는 생성자(constructor)가 제공되며 new 문법을 통해 생성자를 이용한다.
 
