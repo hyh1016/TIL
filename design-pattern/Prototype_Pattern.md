@@ -1,3 +1,5 @@
+# 📜 Prototype Pattern
+
 ## Prototype Pattern (프로토타입 패턴)
 
 거의 동일한 객체를 여러 개 생성하고자 할 때, 이를 일일이 생성하는 것은 다음과 같은 문제를 갖는다.
@@ -19,9 +21,9 @@
 
 ![Prototype-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5804ed04-05f0-4456-a68b-9f960db2882c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220603%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220603T022703Z&X-Amz-Expires=86400&X-Amz-Signature=15877e22178176a76327defe2238f13274d25da70d5b915e93caa212fec75241&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
-- Client: 추상적인 객체만 참조하며 clone 함수를 이용해 복제된 객체를 획득한다.
-- Prototype: 클론 메소드가 선언된 인터페이스 또는 추상 클래스
-- ConcretePrototype: 자기 자신을 복제하는 clone 메소드를 구현하는 클래스
+- `Client` - 추상적인 객체만 참조하며 clone 함수를 이용해 복제된 객체를 획득한다.
+- `Prototype` - 클론 메소드가 선언된 인터페이스 또는 추상 클래스
+- `ConcretePrototype` - 자기 자신을 복제하는 clone 메소드를 구현하는 클래스
 
 ### 특징
 
