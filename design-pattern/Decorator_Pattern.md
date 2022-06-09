@@ -1,0 +1,19 @@
+# 📜 Decorator Pattern
+
+## Decorator Pattern (데코레이터 패턴)
+
+`데코레이터 패턴`은 요구의 융통성을 다룬다. 기본 기능에 새로운 부수적 기능(장식)을 추가하고자 할 때 기존의 클래스를 수정하는 것이 아니라 Decorator를 선언하여 이를 구현하는 클래스들이 추가 기능을 수행하도록 한다.
+
+### 구성 요소
+
+![Decorator-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/884dc222-88a7-4d06-95db-51cfd267c928/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T125256Z&X-Amz-Expires=86400&X-Amz-Signature=3d8bb65cf28f05f9a888d1d37f9b25d4a95f847a7a596e1c3df9ff773a6370d5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+- `Component` - 기본 기능과 부수적 기능의 공통 기능을 정의한 인터페이스
+- `ConcreteComponent` - 기본 기능. 변하지 않는 부분에 해당한다.
+- `Decorator` - 기본 기능에 덧붙이고자 하는 부차적 기능의 공통 기능을 정의한 **클래스**. 컴포지트 패턴을 적용하여 여러 개 컴포넌트에 기능을 덧붙일 수 있도록 한다.
+- `ConcreteDecorator` - 부차적 기능들을 구현하는 클래스. 상태 또는 행동을 추가한다.
+
+### 특징
+
+- 데코레이터 패턴의 장점은 클라이언트로부터 이러한 부차적 기능 추가를 독립하게 할 수 있다는 것이다. 부차적 기능은 체인을 통해 수행되므로, 클라이언트는 체인의 첫 번째 객체만 호출할 뿐 이후에 어떤 부차적 기능들이 호출되는지 알 필요가 없다.
+- 하지만, 체인 형태를 이루기 때문에 예외를 누가 처리해야 할지 결정하기 어렵다는 단점이 있다.
