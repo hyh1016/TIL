@@ -18,30 +18,30 @@
 
 - 객체명
     
-    ![객체명](./imgs/class-diagram%20(0).png)
+    ![객체명](./imgs/class-diagram-(0).png)
     
 - 객체명 + 필드
     
-    ![객체명+필드](./imgs/class-diagram%20(1).png)
+    ![객체명+필드](./imgs/class-diagram-(1).png)
     
 - 객체명 + 메서드
     
-    ![객체명+메서드](./imgs/class-diagram%20(2).png)
+    ![객체명+메서드](./imgs/class-diagram-(2).png)
     
 - 객체명 + 필드 + 메서드
     
-    ![객체명+필드+메서드](./imgs/class-diagram%20(3).png)
+    ![객체명+필드+메서드](./imgs/class-diagram-(3).png)
     
 
 ### 용도에 따른 표현 예시
 
 - 분석 단계: 타입(자료형), 가시화 정보(접근 제어자) 생략
     
-    ![분석단계](./imgs/class-diagram%20(4).png)
+    ![분석단계](./imgs/class-diagram-(4).png)
     
 - 설계 단계: 타입(자료형), 가시화 정보(접근 제어자) 포함
     
-    ![설계단계](./imgs/class-diagram%20(5).png)
+    ![설계단계](./imgs/class-diagram-(5).png)
     
 
 ### 클래스 간 관계 표현법
@@ -67,11 +67,11 @@
 
 - 양방향
     
-    ![양방향](./imgs/class-diagram%20(6).png)
+    ![양방향](./imgs/class-diagram-(6).png)
     
 - 단방향
     
-    ![단방향](./imgs/class-diagram%20(7).png)
+    ![단방향](./imgs/class-diagram-(7).png)
     
     단방향인 경우 A→B이면 A만 B를 참조하고 B는 A에 대해 알지 못함을 뜻한다.
     
@@ -82,26 +82,26 @@
 
 - 일대일 (1:1)
     
-    ![1:1](./imgs/class-diagram%20(8).png)
+    ![1:1](./imgs/class-diagram-(8).png)
     
 - 일대다 (1:N)
     
-    ![1:N](./imgs/class-diagram%20(9).png)
+    ![1:N](./imgs/class-diagram-(9).png)
     
 - 다대다 (N:M)
     
-    ![N:M](./imgs/class-diagram%20(10).png)
+    ![N:M](./imgs/class-diagram-(10).png)
     
     다대다는 연관 클래스를 만들어 두 개의 일대다 관계로 만들 수 있다.
     
-    ![N:M(2)](./imgs/class-diagram%20(11).png)
+    ![N:M(2)](./imgs/class-diagram-(11).png)
     
 
 ### 재귀
 
 - 클래스가 재귀적으로 연관되나 사이클이 발생하지는 않는다.
     
-    ![재귀](./imgs/class-diagram%20(12).png)
+    ![재귀](./imgs/class-diagram-(12).png)
     
 - 리눅스의 파일 계층 구조가 이에 해당한다.
 
@@ -117,7 +117,7 @@
 
 - 가전제품에는 다양한 제품이 포함되고, 해당 제품 또한 세부적인 카테고리를 가질 수 있다.
     
-    ![Generalization](./imgs/class-diagram%20(13).png)
+    ![Generalization](./imgs/class-diagram-(13).png)
     
 
 ## 집합 (Aggregation, Composition)
@@ -136,7 +136,7 @@
 - 구현 단계에서는 부분 객체를 별도로 생성하고 파라미터로 받는다.
 - `빈 마름모`로 표기한다.
     
-    ![Aggregation](./imgs/class-diagram%20(14).png)
+    ![Aggregation](./imgs/class-diagram-(14).png)
     
 
 ### 합성 (Composition)
@@ -147,7 +147,7 @@
 - 구현 단계에서는 부분 객체를 전체 객체 내부의 필드로 생성한다.
 - `꽉 찬 마름모`로 표기한다.
     
-    ![Composition](./imgs/class-diagram%20(15).png)
+    ![Composition](./imgs/class-diagram-(15).png)
     
 
 ## 의존 (Dependency)
@@ -168,7 +168,7 @@
 
 - 누군가 출근하면서 자동차를 타고 주유소를 이용한다고 하면, 다음과 같은 클래스 다이어그램을 그릴 수 있다.
     
-    ![Dependency](./imgs/class-diagram%20(16).png)
+    ![Dependency](./imgs/class-diagram-(16).png)
     
     - 사람은 자동차를 이용하되, 항상 같은 차를 이용한다. 자동차를 바꾸는 일은 거의 없다.
     - 자동차는 주유할 때 특정 주유기만을 고집하지 않는다. 매번 다른 주유기를 이용할 수 있다.
@@ -184,4 +184,4 @@
 
 - 비행기와 새는 날 수 있다는 공통점이 있다. 이를 추상화하고 구현하면 다음과 같다.
     
-    ![Realization](./imgs/class-diagram%20(17).png)
+    ![Realization](./imgs/class-diagram-(17).png)

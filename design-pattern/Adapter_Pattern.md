@@ -18,13 +18,13 @@
 
 ## Class Adapter (클래스 어댑터)
 
-![Class-Adapter](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cdf8aa29-5204-4586-9dad-56c349c86529/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220405%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220405T133500Z&X-Amz-Expires=86400&X-Amz-Signature=b7e6310162920d634c6162688079507c1d09a6a859be9b5c29821318e29da835&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Class-Adapter](./imgs/adapter-pattern-(0).png)
 
 Adapter가 Adaptee를 상속함으로써 Adaptee의 기능을 호출한다.
 
 ## Object Adapter (오브젝트 어댑터)
 
-![Object-Adapter](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/de100d7c-f6a2-42e0-b582-c03ae70a93c7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220405%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220405T133454Z&X-Amz-Expires=86400&X-Amz-Signature=c43b38a3cfaadb3385c9b5e64612b53c5fae034b2fcd551e16bc1a91b48210a8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Object-Adapter](./imgs/adapter-pattern-(1).png)
 
 Adapter가 Adaptee를 참조함으로써 Adaptee의 기능을 호출한다.
 
