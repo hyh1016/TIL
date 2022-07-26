@@ -10,11 +10,11 @@
 
 클라이언트가 기존에 아래와 같이 LinkedList 자료구조를 통해 데이터 집합을 처리하고 있었다고 하자.
 
-![Use-Linked-List](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f7ed1358-0699-4fd6-9913-70becb001b49/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T125344Z&X-Amz-Expires=86400&X-Amz-Signature=afda0f204514c0b1f5b7ce695720b9058bfcff51e4b3d877fdead955cd759a16&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Use-Linked-List](./imgs/iterator-pattern-(0).png)
 
 그러다가 요구의 변경에 의해 자료구조를 BalancedTree로 변경하게 되었다. 그렇다면 기존에 LinkedList를 사용하여 구현된 코드들에 모두 변화가 일어나게 된다.
 
-![Use-Balanced-Tree](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/967be07d-6e5e-419d-980c-3d2c2d84c972/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T125345Z&X-Amz-Expires=86400&X-Amz-Signature=2efa8febc7454deb3aa41cf409ee500894f8adebebb1165cc9a0e6ca26a1f257&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Use-Balanced-Tree](./imgs/iterator-pattern-(1).png)
 
 두 개는 서로 다른 자료형임은 물론이고, 서로 다른 메소드를 가질 것이므로 이 변화의 크기는 매우 커질 수 있다.
 
@@ -22,7 +22,7 @@
 
 ### 구성 요소
 
-![Iterator-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab149170-6185-49eb-96c5-9f0d4e5bcd93/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T125431Z&X-Amz-Expires=86400&X-Amz-Signature=3a0183268b0d75b1c9fafbd1c462645578ab73d9b71bc348dfaaa13f92e711b1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Iterator-Pattern](./imgs/iterator-pattern-(2).png)
 
 - `Aggregate` - 요소들의 집합을 다루기 위한 공통 기능을 정의한 인터페이스
 - `ConcreteAggregate` - 요소들의 집합을 다루는 클래스 (ArrayList 등)

@@ -15,7 +15,7 @@
 
 ### 구성 요소
 
-![Command-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f8f2b78-073f-4657-b37a-6b7989fddc61/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T075854Z&X-Amz-Expires=86400&X-Amz-Signature=7e66f86093c41323897c03ecb459af4e98ddefd15ec3f13c35112bb97c070953&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Command-Pattern](./imgs/command-pattern-(0).png)
 
 - `Invoker` - 커맨드의 실행을 요청하는 객체
 - `Command` - 실행될 기능에 대한 인터페이스
@@ -28,4 +28,4 @@
 
 Client는 Receiver를 생성하고, ConcreteCommand에 이를 전달한 뒤 ConcreteCommand를 Invoker에 저장하는 역할을 수행한다. 이를 클래스 다이어그램으로 나타내면 아래와 같다.
 
-![Command-With-Client](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ba6a27a8-30d7-49bf-8608-4cb1636aee8c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T075855Z&X-Amz-Expires=86400&X-Amz-Signature=0715e05c079a1bb4aa15437f20355961364b22fb6494257bd96c2746070eed9b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Command-With-Client](./imgs/command-pattern-(1).png)

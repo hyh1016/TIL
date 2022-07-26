@@ -22,7 +22,7 @@
 
 ### 구성 요소
 
-![Strategy-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33f353f0-d0d1-4c27-b639-01aacb9401ed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220605%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220605T014915Z&X-Amz-Expires=86400&X-Amz-Signature=f66e4071930a977bd93b20b0a0b5bbec75f205956d5ae39a34be57db37e62455&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Strategy-Pattern](./imgs/strategy-pattern-(0).png)
 
 - `Context` - 전략을 이용하는 객체. 전략을 교체하기 위한 setter 메소드를 가진다.
 - `Strategy` - 외부로부터 동일한 방식으로 알고리즘(전략)을 호출할 수 있도록 하기 위한 인터페이스/추상 클래스

@@ -2,7 +2,7 @@
 
 ## Abstract Factory Pattern (추상 팩토리 패턴)
 
-![Abstract-Factory](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09c478a2-bda9-40be-ae1b-b55b6ad20c90/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220530T084700Z&X-Amz-Expires=86400&X-Amz-Signature=daef8454cb07005ab387b333f20f7f636529803a1479722b7e6cfe9587574d96&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Abstract-Factory](./imgs/abstract-factory-pattern-(0).png)
 
 해당 패턴은 [팩토리 메소드 패턴](./Factory_Method_Pattern.md)과 함께 보는 것이 좋다.
 
@@ -36,4 +36,4 @@
 
 최종 클래스 다이어그램은 다음과 같이 형성된다.
 
-![Abstract-Factory-Example](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b8194c3-b6ce-4afc-96ab-4fa83e724ec2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220530%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220530T084704Z&X-Amz-Expires=86400&X-Amz-Signature=4fb5c999bf793f0217c505998290858fbd16ed0d58970117212f5e1d1e869133&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Abstract-Factory-Example](./imgs/abstract-factory-pattern-(1).png)

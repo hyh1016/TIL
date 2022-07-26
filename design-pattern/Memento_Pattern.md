@@ -15,7 +15,7 @@
 
 ### 구성
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fe5177e8-edd8-4710-b260-65d431855781/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220603%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220603T065816Z&X-Amz-Expires=86400&X-Amz-Signature=ec354540748f991e798ba64c3f250eb415f9c3eaabe1d43758458023362c3de4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](./imgs/memento-pattern-(0).png)
 
 - `Originator` - Memento 객체를 `생성`하고, 특정 상태로 되돌아가고자 할 때 이를 `이용`한다.
 - `Memento` - Originator 객체의 상태 정보를 저장한다.

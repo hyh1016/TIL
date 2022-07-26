@@ -2,7 +2,7 @@
 
 ## Flyweight Pattern (플라이웨이트 패턴)
 
-![Flyweight-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4750a67f-9757-46ca-994f-1b37a0ed08ac/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220520%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220520T143033Z&X-Amz-Expires=86400&X-Amz-Signature=ec174e1368fa292d5d868bfa595ced11242adfe9d12ab9a5a0bf4c1f3b79bd07&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Flyweight-Pattern](./imgs/flyweight-pattern-(0).png)
 
 개발하려는 응용 프로그램이 특정 클래스에 대해 아주 많은 객체를 필요로 한다고 가정하자. 객체의 크기가 커지면 커질수록 저장 공간에 대한 부담이 커질 것이다.
 

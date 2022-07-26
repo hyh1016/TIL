@@ -26,11 +26,11 @@ class TCPConnection {
 
 위의 TCP Connection 예제의 경우 상태 패턴을 적용하면 아래와 같이 설계할 수 있다.
 
-![TCP-State](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4a092bcc-e27e-4eb3-b87c-1b75263d0eb0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220604T073549Z&X-Amz-Expires=86400&X-Amz-Signature=6785fa675d2a0e6fdb10c813ad4e793c59728799958897c7c5906b071b6d7288&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![TCP-State](./imgs/state-pattern-(0).png)
 
 ### 구성 요소
 
-![State-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d11cf562-8f87-47d3-b730-ff45a769c75c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220604%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220604T073551Z&X-Amz-Expires=86400&X-Amz-Signature=6595c59953193ce1c94cadc709e8b67d43b35db6449f0fba6fa296c5d64024af&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![State-Pattern](./imgs/state-pattern-(1).png)
 
 - `Context` - 현재 상태를 나타내는 상태 객체의 reference를 가지는 객체
 - `State` - Context 객체의 상태에 따라 서로 다른 행위를 하는 함수들의 인터페이스를 정의

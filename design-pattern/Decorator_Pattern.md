@@ -6,7 +6,7 @@
 
 ### 구성 요소
 
-![Decorator-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/884dc222-88a7-4d06-95db-51cfd267c928/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220606%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220606T125256Z&X-Amz-Expires=86400&X-Amz-Signature=3d8bb65cf28f05f9a888d1d37f9b25d4a95f847a7a596e1c3df9ff773a6370d5&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Decorator-Pattern](./imgs/decorator-pattern-(0).png)
 
 - `Component` - 기본 기능과 부수적 기능의 공통 기능을 정의한 인터페이스
 - `ConcreteComponent` - 기본 기능. 변하지 않는 부분에 해당한다.

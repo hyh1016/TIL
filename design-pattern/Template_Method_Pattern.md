@@ -2,7 +2,7 @@
 
 ## Template Method (템플릿 메소드 패턴)
 
-![Template-Method-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b7a7409f-16fd-4e70-ab5c-b26d5e9e4e92/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220517%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220517T144322Z&X-Amz-Expires=86400&X-Amz-Signature=01c5190c8a209aa7ba8ae81f00153dec818656e06582cf0db2a04bc6ca01892d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Template-Method-Pattern](./imgs/template-method-(0).png)
 
 구체적인 구현 내용이 다르지만 기본 골격이 비슷한 프로그램을 설계할 때 기본 골격에 해당하는 알고리즘은 일괄적으로 관리하고 구체적인 부분의 구현은 미룰 수 있다면 재사용성이 좋은 설계를 할 수 있다. 이로부터 고안된 것이 템플릿 메소드 패턴이다.
 

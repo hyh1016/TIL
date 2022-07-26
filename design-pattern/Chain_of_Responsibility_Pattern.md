@@ -2,7 +2,7 @@
 
 ## Chain of Responsibility Pattern (책임 연쇄 패턴)
 
-![Chain-Pattern](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1b67dec3-f64c-4e2f-bd51-560de676d722/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220520%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220520T135518Z&X-Amz-Expires=86400&X-Amz-Signature=f9901488704e88736e94eba1cf444581d9f6e7279f0ae8a3fd67c8494f209b16&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Chain-Pattern](./imgs/chain-of-responsibility-pattern-(0).png)
 
 특정 요청을 처리할 책임을 갖는 여러 클래스를 체인 형태로 연결하고, 요청이 들어왔을 때 다음과 같이 동작한다.
 

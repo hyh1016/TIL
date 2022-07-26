@@ -2,7 +2,7 @@
 
 ## Proxy Pattern (프록시 패턴)
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/24f96d81-504e-4aad-bb2e-eab44fd94048/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220509%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220509T074007Z&X-Amz-Expires=86400&X-Amz-Signature=e8807f30b0e12bbe63ad010e03511d7824efacc8e10cffc04725e81f19914cc8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](./imgs/proxy-pattern-(0).png)
 
 특정 객체로의 접근을 조절하기 위해 `대리자(프록시)`를 세우는 것
 
