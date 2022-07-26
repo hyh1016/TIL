@@ -10,7 +10,7 @@
 
 ### Class Diagram
 
-![Observer-Class-Diagram](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cd8a1672-bcce-4937-b642-5a2c33523b5b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220419T015353Z&X-Amz-Expires=86400&X-Amz-Signature=1d09f3612e45a7841b48260b8a1e3d3a1cc2a0bc0c18147ba4e681ce62bb5ef1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Observer-Class-Diagram](./imgs/observer-pattern-(0).png)
 
 - `Subject` - 자신의 변화를 관찰자에게 통보하는 객체이다.
 - `Observer` - 관찰자로, 서브젝트의 변화를 통보받고 변화를 반영한다.
@@ -23,7 +23,7 @@
 
 ### State Diagram
 
-![Observer-Sequence-Diagram](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d8f1045f-4908-4b40-867f-2822edde1f5a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220419%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220419T015402Z&X-Amz-Expires=86400&X-Amz-Signature=bd6304f53ad4ddc1d3e5a8cbeb96c09774806f350d933acb17ff56168c6a4365&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Observer-Sequence-Diagram](./imgs/observer-pattern-(1).png)
 
 ### 장점
 

@@ -2,7 +2,7 @@
 
 ## SingleTon Pattern (싱글톤 패턴)
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ad032826-b541-4b4c-94de-169378892c3a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220417%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220417T141725Z&X-Amz-Expires=86400&X-Amz-Signature=bc669836f78a9937642068b9ea721e5bd088782e4478f2e20938cf0ef4c98612&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](./imgs/singleton-pattern-(0).png)
 
 - 하나의 클래스에 대해 `오직 하나의 객체만 생성됨`을 보장하는 패턴
 - 생성자를 통해 객체를 생성하지 않고 `Getter를 통해 객체를 획득`한다.
