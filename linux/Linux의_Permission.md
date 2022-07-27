@@ -19,11 +19,11 @@ Linux에서는 파일별로, 사용자별로 권한의 종류별로 권한을 �
 
 각 권한은 아래와 같이 사용자별(파일 오너, 오너가 속한 그룹, 나머지 사용자들)에 따라 3비트의 2진수로 부여되고 확인할 수 있다.
 
-![Linux Permission Structure](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e05bd834-0c1c-4be6-b999-57e942a981f6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220327T123550Z&X-Amz-Expires=86400&X-Amz-Signature=972555a4857531cea3143036966451aa6fcba1fe32723a7d06f9fa092c09d5cf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Linux Permission Structure](./imgs/permission-structure-(0).png)
 
 이렇게 부여된 권한을 확인하고자 한다면 `ls -l` 명령을 이용하면 된다.
 
-![ls -l](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a06a6b2d-8d84-46ac-a23a-7670ddc5b0a1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220327%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220327T123614Z&X-Amz-Expires=86400&X-Amz-Signature=cca5e716b572e754095642a5da25637a0735371760bca3a867e7aed2a5eb2c2b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![ls -l](./imgs/permission-structure-(1).png)
 
 위의 파일들은 다음과 같은 권한을 소유한다.
 
@@ -97,4 +97,4 @@ setuid 프로그램은 실행 중에는 EUID(Effective User ID)가 파일의 own
 
 아래와 같이 Others의 실행 권한이 표기되는 위치에 소문자 t가 표기되는 경우 sticky bit가 적용된 것이다.
 
-![Sticky Bits](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/350dab82-3acc-4746-a43d-97c640445eb7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220328%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220328T062044Z&X-Amz-Expires=86400&X-Amz-Signature=26ee4f1ecb1f7059b804ca48cda17de89a4f4447ea235f284146289882fa28f7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Sticky Bits](./imgs/permission-structure-(2).png)
