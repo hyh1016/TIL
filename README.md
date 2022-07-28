@@ -29,18 +29,40 @@
 
 ## design-pattern
 
+- [Abstract Factory Pattern](/design-pattern/Abstract_Factory_Pattern.md)
 - [Adapter Pattern](/design-pattern/Adapter_Pattern.md)
 - [Bridge Pattern](/design-pattern/Bridge_Pattern.md)
+- [Builder Pattern](/design-pattern/Builder_Pattern.md)
+- [Chain of Responsibility Pattern](/design-pattern/Chain_of_Responsibility_Pattern.md)
 - [Class Diagram](/design-pattern/Class_Diagram.md)
+- [Command Pattern](/design-pattern/Command_Pattern.md)
 - [Composite Pattern](/design-pattern/Composite_Pattern.md)
+- [Decorator Pattern](/design-pattern/Decorator_Pattern.md)
 - [Facade Pattern](/design-pattern/Facade_Pattern.md)
+- [Factory Method Pattern](/design-pattern/Factory_Method_Pattern.md)
+- [Flyweight Pattern](/design-pattern/Flyweight_Pattern.md)
+- [Iterator Pattern](/design-pattern/Iterator_Pattern.md)
+- [Mediator Pattern](/design-pattern/Mediator_Pattern.md)
+- [Memento Pattern](/design-pattern/Memento_Pattern.md)
+- [Observer Pattern](/design-pattern/Observer_Pattern.md)
+- [Prototype Pattern](/design-pattern/Prototype_Pattern.md)
+- [Proxy Pattern](/design-pattern/Proxy_Pattern.md)
+- [Singleton Pattern](/design-pattern/Singleton_Pattern.md)
 - [SOLID](/design-pattern/SOLID.md)
+- [State Pattern](/design-pattern/State_Pattern.md)
+- [Strategy Pattern](/design-pattern/Strategy_Pattern.md)
+- [Template Method Pattern](/design-pattern/Template_Method_Pattern.md)
 - [UML](/design-pattern/UML.md)
 - [객체지향 패러다임](/design-pattern/객체지향_패러다임.md)
 
 ## git
 
 - [자주 사용하는 Git 명령어 모음](/git/자주_사용하는_Git_명령어_모음.md)
+
+## java
+
+- [Serialize And Deserialize](/java/Serialize_And_Deserialize.md)
+- [Tiles](/java/Tiles.md)
 
 ## linux
 
@@ -51,6 +73,9 @@
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
 
+## OS
+
+
 ## server
 
 - [CI&CD](/server/CI&CD.md)
@@ -58,6 +83,7 @@
 - [HTTP와 HTTPS](/server/HTTP와_HTTPS.md)
 - [jwt](/server/jwt.md)
 - [OAuth](/server/OAuth.md)
+- [REST API](/server/REST_API.md)
 - [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
 
 ## spring
