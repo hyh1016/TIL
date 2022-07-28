@@ -14,6 +14,8 @@ readme_template = """
 
 """
 
+exclude = ['.git', 'readme-manager.py', 'README.md', 'imgs']  # README에서 제외할 디렉토리
+
 
 def search_directory(root, directory, depth):
     print_directory(directory, depth)
@@ -22,6 +24,8 @@ def search_directory(root, directory, depth):
     os.chdir(move)
     directorys = os.listdir()
     for e in directorys:
+        if e in exclude:
+            continue
         new_path = move + f"\{e}"
         if os.path.isdir(new_path):
             search_directory(move, e, depth+1)
@@ -46,7 +50,6 @@ def print_file(file, path):
         f'[{filename.replace("_", " ")}]({path.replace(root, "").replace(backslash, "/")})' + '\n'
 
 
-exclude = ['.git', 'readme-manager.py', 'README.md']  # README에서 제외할 디렉토리
 
 root = os.getcwd()
 README = open(f'{root}\README.md', 'w', encoding='UTF-8')
