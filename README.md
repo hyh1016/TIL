@@ -24,7 +24,6 @@
 
 - [Array List LinkedList](/data-structure/Array_List_LinkedList.md)
 - [Heap](/data-structure/Heap.md)
-- [heap](/data-structure/heap.py)
 - [Stack Queue](/data-structure/Stack_Queue.md)
 
 ## design-pattern
@@ -80,7 +79,7 @@
 
 ## OS
 
-- [1](/OS/1.Introduction.md)
+- [1.Introduction](/OS/1.Introduction.md)
 
 ## server
 
@@ -122,8 +121,5 @@
 
 ### spring-security
 
-- [cookie](/spring/spring-security/cookie.md)
-- [jwt](/spring/spring-security/jwt.md)
-- [oauth](/spring/spring-security/oauth.md)
 - [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
 - [Thymeleaf](/spring/Thymeleaf.md)
