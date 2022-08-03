@@ -20,12 +20,12 @@
 - [Greedy](/algorithm/Greedy.md)
 - [Sort](/algorithm/Sort.md)
 
-## computer-architecture
-
-
 ## data-structure
 
-- [stack-queue](/data-structure/stack-queue.md)
+- [Array List LinkedList](/data-structure/Array_List_LinkedList.md)
+- [Heap](/data-structure/Heap.md)
+- [heap](/data-structure/heap.py)
+- [Stack Queue](/data-structure/Stack_Queue.md)
 
 ## design-pattern
 
@@ -75,11 +75,12 @@
 - [jwt](/network/jwt.md)
 - [OAuth](/network/OAuth.md)
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
-- [Query Parameter Path Variable](/network/Query Parameter_Path Variable.md)
+- [Query Parameter & Path Variable](/network/Query_Parameter_&_Path_Variable.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
 
 ## OS
 
+- [1](/OS/1.Introduction.md)
 
 ## server
 
@@ -121,5 +122,8 @@
 
 ### spring-security
 
+- [cookie](/spring/spring-security/cookie.md)
+- [jwt](/spring/spring-security/jwt.md)
+- [oauth](/spring/spring-security/oauth.md)
 - [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
 - [Thymeleaf](/spring/Thymeleaf.md)
