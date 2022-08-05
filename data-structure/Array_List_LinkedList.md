@@ -1,5 +1,5 @@
 
-# Array, List, LinkedList
+# 🗃 Array, List, LinkedList
 
 ## Array
 
