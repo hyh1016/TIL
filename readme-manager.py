@@ -45,7 +45,8 @@ def print_file(file, path):
     global root, readme_template
 
     backslash = '\\'
-    filename = file.replace('.md', '')
+    ext = file.split('.')[-1]
+    filename = file.replace('.'+ext, '')
     readme_template += '-' + ' ' + \
         f'[{filename.replace("_", " ")}]({path.replace(root, "").replace(backslash, "/")})' + '\n'
 
