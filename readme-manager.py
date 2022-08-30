@@ -22,16 +22,18 @@ def search_directory(root, directory, depth):
 
     move = root + f"\{directory}"
     os.chdir(move)
-    directorys = os.listdir()
-    for e in directorys:
-        if e in exclude:
+    files = os.listdir()
+    directories = []
+    for file in files:
+        if file in exclude:
             continue
-        new_path = move + f"\{e}"
+        new_path = move + "\\" + file
         if os.path.isdir(new_path):
-            search_directory(move, e, depth+1)
+            directories.append(file)
         else:
-            print_file(e, new_path)
-
+            print_file(file, new_path)
+    for dir in directories:
+        search_directory(move, dir, depth+1)
 
 def print_directory(directory, depth):
     global readme_template
