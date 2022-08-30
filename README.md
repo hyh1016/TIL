@@ -26,6 +26,11 @@
 - [Heap](/data-structure/Heap.md)
 - [Stack Queue](/data-structure/Stack_Queue.md)
 
+## database
+
+- [MySQL 사용자 권한부여](/database/MySQL_사용자_권한부여.md)
+- [VARCHAR의 길이제한](/database/VARCHAR의_길이제한.md)
+
 ## design-pattern
 
 - [Abstract Factory Pattern](/design-pattern/Abstract_Factory_Pattern.md)
@@ -60,8 +65,12 @@
 
 ## java
 
+- [Java 코드의 실행 과정](/java/Java_코드의_실행_과정.md)
+- [JVM](/java/JVM.md)
+- [Primitive Type & Reference Type](/java/Primitive_Type_&_Reference_Type.md)
 - [Serialize And Deserialize](/java/Serialize_And_Deserialize.md)
 - [Tiles](/java/Tiles.md)
+- [추상클래스와 인터페이스의 차이](/java/추상클래스와_인터페이스의_차이.md)
 
 ## linux
 
@@ -75,6 +84,8 @@
 - [OAuth](/network/OAuth.md)
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [Query Parameter & Path Variable](/network/Query_Parameter_&_Path_Variable.md)
+- [Subnet](/network/Subnet.md)
+- [WebSocket](/network/WebSocket.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
 
 ## OS
@@ -84,11 +95,13 @@
 ## server
 
 - [CI&CD](/server/CI&CD.md)
+- [Cloud Service](/server/Cloud_Service.md)
 - [REST API](/server/REST_API.md)
 - [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
 
 ## spring
 
+- [@Configuration](/spring/@Configuration.md)
 - [@RequestParam @RequestBody @ModelAttribute](/spring/@RequestParam_@RequestBody_@ModelAttribute.md)
 - [AOP](/spring/AOP.md)
 - [Autowired](/spring/Autowired.md)
@@ -98,12 +111,14 @@
 - [Configuration 분리](/spring/Configuration_분리.md)
 - [DI](/spring/DI.md)
 - [IoC Container](/spring/IoC_Container.md)
+- [Profile](/spring/Profile.md)
+- [Properties](/spring/Properties.md)
+- [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
+- [Thymeleaf](/spring/Thymeleaf.md)
 
 ### jpa
 
 - [Dirty Checking](/spring/jpa/Dirty_Checking.md)
-- [Profile](/spring/Profile.md)
-- [Properties](/spring/Properties.md)
 
 ### spring-boot
 
@@ -121,5 +136,3 @@
 
 ### spring-security
 
-- [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
-- [Thymeleaf](/spring/Thymeleaf.md)
