@@ -66,7 +66,6 @@
 
 ## java
 
-- [Java 코드의 실행 과정](/java/Java_코드의_실행_과정.md)
 - [JVM](/java/JVM.md)
 - [Primitive Type & Reference Type](/java/Primitive_Type_&_Reference_Type.md)
 - [Serialize And Deserialize](/java/Serialize_And_Deserialize.md)
