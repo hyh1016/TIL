@@ -30,6 +30,7 @@
 ## database
 
 - [MySQL 사용자 권한부여](/database/MySQL_사용자_권한부여.md)
+- [Transaction](/database/Transaction.md)
 - [VARCHAR의 길이제한](/database/VARCHAR의_길이제한.md)
 
 ## design-pattern
@@ -70,6 +71,7 @@
 - [Primitive Type & Reference Type](/java/Primitive_Type_&_Reference_Type.md)
 - [Serialize And Deserialize](/java/Serialize_And_Deserialize.md)
 - [Tiles](/java/Tiles.md)
+- [Why is sort() a static method](/java/Why_is_sort()_a_static_method.md)
 - [추상클래스와 인터페이스의 차이](/java/추상클래스와_인터페이스의_차이.md)
 
 ## linux
@@ -84,6 +86,7 @@
 - [OAuth](/network/OAuth.md)
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [Query Parameter & Path Variable](/network/Query_Parameter_&_Path_Variable.md)
+- [Status Code](/network/Status_Code.md)
 - [Subnet](/network/Subnet.md)
 - [WebSocket](/network/WebSocket.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
