@@ -22,15 +22,17 @@
 
 ## data-structure
 
-- [Array List LinkedList](/data-structure/Array_List_LinkedList.md)
+- [Array, List, LinkedList](/data-structure/Array,_List,_LinkedList.md)
 - [Hash, Map, HashMap](/data-structure/Hash,_Map,_HashMap.md)
 - [Heap](/data-structure/Heap.md)
 - [Stack Queue](/data-structure/Stack_Queue.md)
 
 ## database
 
+- [Database Lock](/database/Database_Lock.md)
 - [MySQL 사용자 권한부여](/database/MySQL_사용자_권한부여.md)
 - [Transaction](/database/Transaction.md)
+- [Transaction Isolation Level](/database/Transaction_Isolation_Level.md)
 - [VARCHAR의 길이제한](/database/VARCHAR의_길이제한.md)
 
 ## design-pattern
@@ -67,10 +69,17 @@
 
 ## java
 
+- [Annotation](/java/Annotation.md)
+- [Exception Handling](/java/Exception_Handling.md)
+- [Generic](/java/Generic.md)
+- [Java 코드의 실행 과정](/java/Java_코드의_실행_과정.md)
 - [JVM](/java/JVM.md)
+- [Object Class](/java/Object_Class.md)
 - [Primitive Type & Reference Type](/java/Primitive_Type_&_Reference_Type.md)
 - [Serialize And Deserialize](/java/Serialize_And_Deserialize.md)
+- [String, StringBuilder, StringBuffer](/java/String,_StringBuilder,_StringBuffer.md)
 - [Tiles](/java/Tiles.md)
+- [Type Casting](/java/Type_Casting.md)
 - [Why is sort() a static method](/java/Why_is_sort()_a_static_method.md)
 - [추상클래스와 인터페이스의 차이](/java/추상클래스와_인터페이스의_차이.md)
 
@@ -81,6 +90,7 @@
 ## network
 
 - [cookie-session](/network/cookie-session.md)
+- [HTTP Header](/network/HTTP_Header.md)
 - [HTTP와 HTTPS](/network/HTTP와_HTTPS.md)
 - [jwt](/network/jwt.md)
 - [OAuth](/network/OAuth.md)
@@ -101,6 +111,7 @@
 
 ## server
 
+- [Cache](/server/Cache.md)
 - [CI&CD](/server/CI&CD.md)
 - [Cloud Service](/server/Cloud_Service.md)
 - [REST API](/server/REST_API.md)
@@ -140,6 +151,3 @@
 - [RestController](/spring/spring-mvc/RestController.md)
 - [spring-mvc](/spring/spring-mvc/spring-mvc.md)
 - [Validator](/spring/spring-mvc/Validator.md)
-
-### spring-security
-
