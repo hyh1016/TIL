@@ -1,0 +1,31 @@
+name: Run Readme Manager
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: checkout
+      uses: actions/checkout@v3
+    
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+        
+    - name: run readme manager
+      run: python readme-manager.py
+
+    - name: commit readme
+      run: |
+        git config --global user.email "hihyun16@gmail.com"
+        git config --global user.name "hyh1016"
+        git add README.md
+        git commit -am "Update README.md"
+        git push
