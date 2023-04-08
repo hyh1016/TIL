@@ -20,7 +20,7 @@ exclude = ['.git', 'readme-manager.py', 'README.md', 'imgs']  # README에서 제
 def search_directory(root, directory, depth):
     print_directory(directory, depth)
 
-    move = root + f"\{directory}"
+    move = root + f"/{directory}"
     os.chdir(move)
     files = os.listdir()
     directories = []
