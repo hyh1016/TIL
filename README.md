@@ -47,6 +47,7 @@
 
 ## database
 
+- [Row Oriented vs Column Oriented](/database/Row_Oriented_vs_Column_Oriented.md)
 - [Execution Plan](/database/Execution_Plan.md)
 - [Join Algorithm](/database/Join_Algorithm.md)
 - [Transaction](/database/Transaction.md)
