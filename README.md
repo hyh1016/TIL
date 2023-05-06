@@ -104,6 +104,7 @@
 ### jpa
 
 - [Dirty Checking](/spring/jpa/Dirty_Checking.md)
+- [JPA Fetch 전략](/spring/jpa/JPA_Fetch_전략.md)
 
 ### spring-mvc
 
