@@ -103,6 +103,7 @@
 
 ### jpa
 
+- [JPA N+1 Problem](/spring/jpa/JPA_N+1_Problem.md)
 - [Dirty Checking](/spring/jpa/Dirty_Checking.md)
 - [JPA Fetch 전략](/spring/jpa/JPA_Fetch_전략.md)
 
