@@ -68,6 +68,7 @@
 - [VARCHAR의 길이제한](/database/VARCHAR의_길이제한.md)
 - [Transaction](/database/Transaction.md)
 - [Database Lock](/database/Database_Lock.md)
+- [Index](/database/Index.md)
 
 ## data-structure
 
