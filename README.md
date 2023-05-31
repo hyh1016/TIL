@@ -175,6 +175,10 @@
 - [Annotation](/java/Annotation.md)
 - [Optional](/java/Optional.md)
 
+### effective-java
+
+- [Item 1. static factory method](/java/effective-java/Item_1._static_factory_method.md)
+
 ## network
 
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
