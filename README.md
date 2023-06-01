@@ -177,6 +177,7 @@
 
 ### effective-java
 
+- [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 1. static factory method](/java/effective-java/Item_1._static_factory_method.md)
 
 ## network
