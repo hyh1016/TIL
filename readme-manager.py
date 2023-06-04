@@ -22,7 +22,7 @@ def search_directory(root, directory, depth):
 
     move = root + f"/{directory}"
     os.chdir(move)
-    files = os.listdir()
+    files = sorted(os.listdir())
     directories = []
     for file in files:
         if file in exclude:
@@ -56,7 +56,7 @@ def print_file(file, path):
 
 root = os.getcwd()
 README = open(f'{root}/README.md', 'w', encoding='UTF-8')
-directorys = os.listdir()
+directorys = sorted(os.listdir())
 for d in directorys:
     if d in exclude:
         continue
