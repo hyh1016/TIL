@@ -111,6 +111,7 @@
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
+- [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 
 ## linux
 
