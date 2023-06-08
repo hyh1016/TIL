@@ -22,7 +22,13 @@ jobs:
     - name: run readme manager
       run: python readme-manager.py
 
-    - name: commit readme
+    - name: check if there are any changes
+      id: verify_diff
+      run: |
+        git diff --quiet ./README.md || echo "changed=true" >> $GITHUB_OUTPUT
+
+    - name: commit and push readme
+      if: steps.verify_diff.outputs.changed == 'true'
       run: |
         git config --global user.email "hihyun16@gmail.com"
         git config --global user.name "hyh1016"
