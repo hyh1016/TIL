@@ -4,9 +4,9 @@
 
 ```java
 try {
-	return br.readLine();
+		return br.readLine();
 } finally {
-	br.close();
+		br.close();
 }
 ```
 
@@ -17,13 +17,14 @@ try {
 
 - 리소스의 수가 많고, 순차적으로 연결/해제하는 리소스라면 코드가 지저분해짐
     - try-finally 문이 중첩되기 때문
-- ⭐ finally 문 내부에서 close 메서드를 호출하기 전에 무언가 예외가 발생할 수도 있고, 이 경우 리소스가 제대로 회수되지 않음
+- ⭐ finally 문 내부에서 close 메서드를 호출하지 않으면 자원이 제대로 회수되지 않아 메모리 누수가 발생할 수 있음
+    - 즉, 프로그래머의 실수 등의 요인으로 close의 호출이 보장되지 않을 수 있음
 
 ## try-with-resources
 
 - Java 7부터 사용 가능한 문법
-- 앞선 try-finally의 경우 close 도중 예외가 발생하면 자원이 회수되지 않아 memory leak이 발생할 수 있다는 치명적 문제점이 존재
-    - 이를 완전히 해결한 것이 try-with-resources
+- 앞선 try-finally의 경우 close의 호출이 보장되지 않아 memory leak이 발생할 수 있다는 치명적 문제점이 존재
+    - 이에 대한 해결책으로 등장한 것이 try-with-resources 문법
 
 ### 구현
 
@@ -50,5 +51,6 @@ class MyResource implements AutoCloseable {
 
 - 리소스가 많아져도 try 괄호 내에서 순차적으로 초기화하면 됨
     - try 문을 중첩할 필요가 없어 코드 가독성 증진
-- 프로그래머가 명시적으로 close 메서드를 호출할 필요가 없다. 리소스 회수를 실수로 빠트릴 일이 없음
-- close 메서드가 반드시 실행됨이 보장
+- 프로그래머가 명시적으로 close 메서드를 호출할 필요가 없음
+    - 리소스 회수를 실수로 빠트릴 일이 없음
+    - close 메서드가 반드시 실행됨이 보장

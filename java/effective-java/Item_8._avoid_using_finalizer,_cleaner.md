@@ -20,7 +20,7 @@
 ### AutoCloseable, try-with-resource
 
 - `AutoCloseable` 인터페이스를 상속한 뒤 close 메서드를 오버라이딩해 이 메서드 내에서 해당 객체가 회수될 때 수행되어야 할 동작들을 정의
-- 이 close 메서드는 외부에서 `**try-with-resource`를 통해 해당 객체를 생성하고 닫음이 보장된다면** 반드시 호출됨
+- 이 close 메서드는 외부에서 `try-with-resource`를 통해 해당 객체를 생성함이 보장된다면 반드시 호출됨
 
 ### 클라이언트에서 잘못된 호출을 하는 경우
 
