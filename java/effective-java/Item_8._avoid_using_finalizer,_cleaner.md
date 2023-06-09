@@ -77,3 +77,9 @@ public class Item8 implements AutoCloseable {
 
 - 이러한 경우를 대비하여 cleaner를 이용해 명시적으로 회수하도록 구현할 수 있음
 - 하지만 이는 단순히 안전망으로만 사용하고, 클라이언트가 try-with-resource를 사용하도록 하는 것이 가장 좋은 구현법
+
+### AutoCloseable을 안전하게 구현하는 방법
+
+- 외부에서 close에 의해 `닫힌` 자원을 사용하기 위해 호출하는 실수를 할 수도 있음
+- 이 경우 해당 자원의 사용을 막기 위해 AutoCloseable을 구현한 클래스에서는 close 여부를 boolean 필드 값 등으로 관리하는 것이 좋음
+  - 예시: isClosed 라는 필드를 소유하고, close 메소드의 끝단에서 이를 true로 설정 (다른 메서드들은 동작 전 isClosed가 false인지 확인)
