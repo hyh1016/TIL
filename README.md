@@ -105,6 +105,7 @@
 ### effective-java
 
 - [Item 1. static factory method](/java/effective-java/Item_1._static_factory_method.md)
+- [Item 10. override equals](/java/effective-java/Item_10._override_equals.md)
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
