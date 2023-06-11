@@ -1,4 +1,4 @@
-# equals를 오버라이딩할 거면 hashCode도 오버라이딩하라
+# Item 11. equals를 오버라이딩할 거면 hashCode도 오버라이딩하라
 
 ## hashCode
 
