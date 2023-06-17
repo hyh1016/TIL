@@ -109,6 +109,7 @@
 - [Item 11. override hashCode](/java/effective-java/Item_11._override_hashCode.md)
 - [Item 12. override toString](/java/effective-java/Item_12._override_toString.md)
 - [Item 13. override clone](/java/effective-java/Item_13._override_clone.md)
+- [Item 14. implement comparable](/java/effective-java/Item_14._implement_comparable.md)
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
