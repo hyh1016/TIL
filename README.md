@@ -111,6 +111,7 @@
 - [Item 13. override clone](/java/effective-java/Item_13._override_clone.md)
 - [Item 14. implement comparable](/java/effective-java/Item_14._implement_comparable.md)
 - [Item 15. field access modifier](/java/effective-java/Item_15._field_access_modifier.md)
+- [Item 16. get method](/java/effective-java/Item_16._get_method.md)
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
