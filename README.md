@@ -114,6 +114,7 @@
 - [Item 16. get method](/java/effective-java/Item_16._get_method.md)
 - [Item 17. minimize mutability](/java/effective-java/Item_17._minimize_mutability.md)
 - [Item 18. use composition instead extend](/java/effective-java/Item_18._use_composition_instead_extend.md)
+- [Item 19. prepare docs if extend](/java/effective-java/Item_19._prepare_docs_if_extend.md)
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
