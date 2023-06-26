@@ -116,6 +116,7 @@
 - [Item 18. use composition instead extend](/java/effective-java/Item_18._use_composition_instead_extend.md)
 - [Item 19. prepare docs if extend](/java/effective-java/Item_19._prepare_docs_if_extend.md)
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
+- [Item 20. abstract class vs interface](/java/effective-java/Item_20._abstract_class_vs_interface.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
