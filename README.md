@@ -35,6 +35,7 @@
 - [Index](/database/Index.md)
 - [Join Algorithm](/database/Join_Algorithm.md)
 - [MySQL 사용자 권한부여](/database/MySQL_사용자_권한부여.md)
+- [Normalization](/database/Normalization.md)
 - [Row Oriented vs Column Oriented](/database/Row_Oriented_vs_Column_Oriented.md)
 - [Transaction](/database/Transaction.md)
 - [Transaction Isolation Level](/database/Transaction_Isolation_Level.md)
