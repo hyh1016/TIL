@@ -119,6 +119,7 @@
 - [Item 2. builder pattern](/java/effective-java/Item_2._builder_pattern.md)
 - [Item 20. abstract class vs interface](/java/effective-java/Item_20._abstract_class_vs_interface.md)
 - [Item 21. interface default method](/java/effective-java/Item_21._interface_default_method.md)
+- [Item 22. use interface only type](/java/effective-java/Item_22._use_interface_only_type.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
