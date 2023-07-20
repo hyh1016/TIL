@@ -122,6 +122,7 @@
 - [Item 22. use interface only type](/java/effective-java/Item_22._use_interface_only_type.md)
 - [Item 23. use class hierarchy](/java/effective-java/Item_23._use_class_hierarchy.md)
 - [Item 24. member class](/java/effective-java/Item_24._member_class.md)
+- [Item 25. only one top level class](/java/effective-java/Item_25._only_one_top_level_class.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
