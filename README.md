@@ -126,6 +126,7 @@
 - [Item 26. don't use raw type](/java/effective-java/Item_26._don't_use_raw_type.md)
 - [Item 27. remove unchecked warning](/java/effective-java/Item_27._remove_unchecked_warning.md)
 - [Item 28. replace array with list](/java/effective-java/Item_28._replace_array_with_list.md)
+- [Item 29. use generic type](/java/effective-java/Item_29._use_generic_type.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
