@@ -1,4 +1,4 @@
-# 📜 Observer Pattern
+# Observer Pattern
 
 ## Observer Pattern (옵서버 패턴)
 
@@ -10,10 +10,10 @@
 
 ### Class Diagram
 
-![Observer-Class-Diagram](./imgs/observer-pattern-(0).png)
+![Observer-Class-Diagram](imgs/observer-pattern-\(0\).png)
 
-- `Subject` - 자신의 변화를 관찰자에게 통보하는 객체이다.
-- `Observer` - 관찰자로, 서브젝트의 변화를 통보받고 변화를 반영한다.
+* `Subject` - 자신의 변화를 관찰자에게 통보하는 객체이다.
+* `Observer` - 관찰자로, 서브젝트의 변화를 통보받고 변화를 반영한다.
 
 ```java
 ※ Observer Pattern을 적용할 때에는 가급적 주어진 메서드명
@@ -23,7 +23,7 @@
 
 ### State Diagram
 
-![Observer-Sequence-Diagram](./imgs/observer-pattern-(1).png)
+![Observer-Sequence-Diagram](imgs/observer-pattern-\(1\).png)
 
 ### 장점
 

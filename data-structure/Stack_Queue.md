@@ -1,5 +1,4 @@
-
-# 🗃 Stack, Queue (스택, 큐)
+# Stack, Queue (스택, 큐)
 
 ## Stack
 

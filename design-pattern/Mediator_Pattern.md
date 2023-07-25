@@ -1,10 +1,10 @@
-# 📜 Mediator Pattern
+# Mediator Pattern
 
 ## Mediator Pattern (중재자 패턴)
 
 다음과 같이 여러 클래스들이 서로 강하게 연결되어 서로를 참조하는 경우를 생각해보자.
 
-![Mediator-Prev](./imgs/mediator-pattern-(0).png)
+![Mediator-Prev](imgs/mediator-pattern-\(0\).png)
 
 하나의 클래스에서 변경이 일어나면 연관된 다른 클래스에서도 수정이 일어나게 되기 때문에, `제어 흐름이 클래스마다 흩어져 있어` 새로운 클래스를 추가하기 복잡하다.
 
@@ -12,23 +12,23 @@
 
 위의 클래스 다이어그램에 중재자 패턴을 적용한 결과는 다음과 같다.
 
-![Apply-Mediator](./imgs/mediator-pattern-(1).png)
+![Apply-Mediator](imgs/mediator-pattern-\(1\).png)
 
 각 클래스는 중재자 클래스를 제외한 클래스와 연관 관계를 가지지 않는다. 대신 다른 클래스와 상호작용하고자 할 때 중재자를 호출해 이를 처리한다.
 
 ### 구현
 
-![Mediator-Pattern](./imgs/mediator-pattern-(2).png)
+![Mediator-Pattern](imgs/mediator-pattern-\(2\).png)
 
 ### 용어
 
-- `Mediator` - 클래스 간 상호작용을 도맡아 처리하는 클래스
-- `Colleague` - 중재자를 호출하는 클래스
+* `Mediator` - 클래스 간 상호작용을 도맡아 처리하는 클래스
+* `Colleague` - 중재자를 호출하는 클래스
 
 ### 장점
 
-- M:N의 객체 관계를 M:1로 전환하여 클래스 간 연결을 느슨하게 할 수 있다. 이를 통해 변경에 대한 영향을 줄일 수 있다.
-- 클래스 간 상호작용 자체를 `캡슐화`하여 변경의 영향을 줄인다.
+* M:N의 객체 관계를 M:1로 전환하여 클래스 간 연결을 느슨하게 할 수 있다. 이를 통해 변경에 대한 영향을 줄일 수 있다.
+* 클래스 간 상호작용 자체를 `캡슐화`하여 변경의 영향을 줄인다.
 
 ### 주의할 점
 

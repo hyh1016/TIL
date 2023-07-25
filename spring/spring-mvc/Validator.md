@@ -1,5 +1,4 @@
-
-# 🍃 Validator
+# Validator
 
 ## 정의
 

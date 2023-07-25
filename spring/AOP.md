@@ -1,11 +1,12 @@
-# 🧱 AOP (Aspect Oriented Programming)
+# AOP (Aspect Oriented Programming)
 
-> ### Spring Framework의 핵심 개념 3가지
+> #### Spring Framework의 핵심 개념 3가지
+>
 > 소스 코드의 복잡도를 줄이고, 효율을 높이고, 유지보수를 용이하게 하기 위해 Spring에서는 다음의 3가지를 이용한다.
+>
 > 1. [DI](DI.md)
-> 2. [IoC Container](IoC_Container.md)
+> 2. [IoC Container](IoC\_Container.md)
 > 3. **AOP**
-
 
 ## AOP의 정의
 
@@ -19,11 +20,11 @@ AOP는 측면 지향적 프로그래밍의 약자로, 여러 객체에 공통적
 
 ## AOP 용어
 
-- `Aspect`: Concern을 모듈화한 것으로, 주로 공통 로직인 관심사 1과 3이 이에 해당한다.
-- `Advice`: Aspect 내 메소드들을 일컫는 용어로, 실제 로직에 해당
-- `JoinPoint`: Advice를 적용할 위치
-- `PointCut`: 특정 메소드에만 Advice를 적용하는 것을 말함
-- `Target`: Aspect를 적용할 클래스, 메소드 등을 말한다.
+* `Aspect`: Concern을 모듈화한 것으로, 주로 공통 로직인 관심사 1과 3이 이에 해당한다.
+* `Advice`: Aspect 내 메소드들을 일컫는 용어로, 실제 로직에 해당
+* `JoinPoint`: Advice를 적용할 위치
+* `PointCut`: 특정 메소드에만 Advice를 적용하는 것을 말함
+* `Target`: Aspect를 적용할 클래스, 메소드 등을 말한다.
 
 ## AOP in Spring
 
@@ -70,10 +71,9 @@ public class ExpTimeAspect {
 }
 ```
 
-- AOP도 Bean으로 등록되어야 하므로 @Component 어노테이션이 사용되었다.
-@Pointcut을 통해 특정 Advice가 사용될 패키지 범위, 파라미터 등을 설정한다.
-- 지정 범위, 파라미터를 재사용해야 할 경우 Pointcut으로 선언하는 것이 좋다. 그러나 단 한 번만 사용하는 경우 @Around 내에 범위를 지정해도 된다.
-    - Pointcut만 따로 모아둔 common aspect를 생성하는 것도 효율적이다.
+* AOP도 Bean으로 등록되어야 하므로 @Component 어노테이션이 사용되었다. @Pointcut을 통해 특정 Advice가 사용될 패키지 범위, 파라미터 등을 설정한다.
+* 지정 범위, 파라미터를 재사용해야 할 경우 Pointcut으로 선언하는 것이 좋다. 그러나 단 한 번만 사용하는 경우 @Around 내에 범위를 지정해도 된다.
+  * Pointcut만 따로 모아둔 common aspect를 생성하는 것도 효율적이다.
 
 ### @Order
 

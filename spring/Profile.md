@@ -1,6 +1,6 @@
-# 🍃 Profile
+# Profile
 
-> 서비스 환경에 따라 서로 다른 환경 변수를 사용하고자 할 때(dev, prod) 사용하는 기능에는 Profile과 [Property](./Properties.md)가 있다. 
+> 서비스 환경에 따라 서로 다른 환경 변수를 사용하고자 할 때(dev, prod) 사용하는 기능에는 Profile과 [Property](Properties.md)가 있다.
 
 ## 정의
 

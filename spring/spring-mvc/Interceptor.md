@@ -1,4 +1,4 @@
-# 🍃 Interceptor
+# Interceptor
 
 ## 정의
 

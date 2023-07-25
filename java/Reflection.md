@@ -1,4 +1,4 @@
-# 🔗 Reflection
+# Reflection
 
 ## 리플렉션(Reflection)
 
@@ -8,15 +8,15 @@ Java에서는 Reflection API를 제공하여 리플렉션 기법을 이용할 �
 
 ## Java Reflection API를 통해 할 수 있는 일
 
-- 클래스 얻어오기
-- 메소드 얻어오기
-- 메소드 목록(배열) 얻어오기
-- 메소드 실행하기
-- 필드 얻어오기
-- 필드 목록(배열) 얻어오기
-- 생성자 얻어오기
-- 생성자를 통한 인스턴스 생성
-- 기타 등등
+* 클래스 얻어오기
+* 메소드 얻어오기
+* 메소드 목록(배열) 얻어오기
+* 메소드 실행하기
+* 필드 얻어오기
+* 필드 목록(배열) 얻어오기
+* 생성자 얻어오기
+* 생성자를 통한 인스턴스 생성
+* 기타 등등
 
 ## 동작 원리
 
@@ -34,5 +34,5 @@ Java에서는 Reflection API를 제공하여 리플렉션 기법을 이용할 �
 
 ## 출처
 
-- [[Tecoble] Reflection API 간단히 알아보자.](https://tecoble.techcourse.co.kr/post/2020-07-16-reflection-api/)
-- [[Baeldung] Guide to Java Reflection](https://www.baeldung.com/java-reflection)
+* [\[Tecoble\] Reflection API 간단히 알아보자.](https://tecoble.techcourse.co.kr/post/2020-07-16-reflection-api/)
+* [\[Baeldung\] Guide to Java Reflection](https://www.baeldung.com/java-reflection)

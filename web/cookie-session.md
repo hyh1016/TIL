@@ -1,4 +1,4 @@
-# 🍪 Cookie-Session
+# Cookie-Session
 
 ## Cookie
 

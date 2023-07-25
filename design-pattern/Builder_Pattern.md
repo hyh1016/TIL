@@ -1,8 +1,8 @@
-# 📜 Builder Pattern
+# Builder Pattern
 
 ## Builder Pattern (빌더 패턴)
 
-![Builder-Pattern](./imgs/builder-pattern-(0).png)
+![Builder-Pattern](imgs/builder-pattern-\(0\).png)
 
 일반적으로 객체를 생성할 때에는 생성자(constructor)가 제공되며 new 문법을 통해 생성자를 이용한다.
 
@@ -14,48 +14,47 @@
 
 ### 구성 요소
 
-- `Director` - Builder를 이용해 Product를 생성하는 클래스
-- `Builder` - Builder에 다형성을 적용하기 위한 인터페이스 (Builder가 하나 뿐이라면 생략 가능)
-- `ConcreteBuilder` - 만들고자 하는 객체(Product)에 대해 점증적으로 값을 받고 이를 생성하여 반환하는 클래스
-- `Product` - Builder가 만들어내는(반환하는) 결과물
+* `Director` - Builder를 이용해 Product를 생성하는 클래스
+* `Builder` - Builder에 다형성을 적용하기 위한 인터페이스 (Builder가 하나 뿐이라면 생략 가능)
+* `ConcreteBuilder` - 만들고자 하는 객체(Product)에 대해 점증적으로 값을 받고 이를 생성하여 반환하는 클래스
+* `Product` - Builder가 만들어내는(반환하는) 결과물
 
 ### 구현 방법
 
-- Builder 클래스는 Java에서는 주로 `public static class`로 선언된다.
-    
+*   Builder 클래스는 Java에서는 주로 `public static class`로 선언된다.
+
     ```java
     public class ProductFactory {
-    
+
     	private String name;
     	private int price;
-    
+
     	public static class Builder {
     		
     	}
-    
+
     	private ProductFactory(Builder builder) {
     		this.name = builder.name;
     		this.price = builder.price;
     	}
     }
     ```
-    
-- 필요한 데이터를 받는 메소드들은 다음과 같이 구현된다.
-    
+*   필요한 데이터를 받는 메소드들은 다음과 같이 구현된다.
+
     ```java
     public Builder name(String name) {
     	this.name = name;
     	return this;
     }
-    
+
     public Builder price(int price) {
     	this.price= price;
     	return this;
     }
     ```
-    
+
     이는 다음과 같이 체인을 이어가 점증적으로 데이터를 채워나가기 위함이다.
-    
+
     ```java
     // in Director
     Product product = ProductFactory.builder()
@@ -63,24 +62,23 @@
     										.price(2900)
     										.build();
     ```
-    
-- Product를 생성하는 메소드 `build`는 다음과 같이 구현된다.
-    
+*   Product를 생성하는 메소드 `build`는 다음과 같이 구현된다.
+
     ```java
     public Product build() {
     	return new Product(this);
     }
     ```
-    
+
     왜 이렇게 작동하는 것이 가능한가? 이는 Product 클래스에서 다음과 같은 프라이빗 생성자를 구현하기 때문이다.
-    
+
     ```java
     private ProductFactory(Builder builder) {
     	this.name = builder.name;
     	this.price = builder.price;
     }
     ```
-    
+
     이는 외부에서 호출할 수는 없으나 Product의 inner class인 Builder에서는 호출할 수 있다.
-    
+
     따라서 Builder의 사용자는 직접 Product를 생성할 수는 없고 Builder를 통해 Product를 생성하는 것이다.

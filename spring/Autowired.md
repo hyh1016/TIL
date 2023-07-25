@@ -1,5 +1,4 @@
-
-# 💉 의존성 자동 주입
+# 의존성 자동 주입
 
 ## @Autowired
 
@@ -108,12 +107,12 @@ public class Conf {
 `@Autowired` 어노테이션은 필드, 생성자, Setter에 붙일 수 있다. 스프링 팀에서는 이 중 생성자에 붙이는 방식을 권장하는데, 그 이유는 다음과 같다.
 
 1. 순환 참조를 방지하기 위함
-    - 필드, Setter들을 이용할 시 생성 시점 이후에도 객체를 수정할 수 있게 된다. 이 경우 양방향 참조가 일어날 수 있으며, 이는 잘못된 설계에 해당한다.
+   * 필드, Setter들을 이용할 시 생성 시점 이후에도 객체를 수정할 수 있게 된다. 이 경우 양방향 참조가 일어날 수 있으며, 이는 잘못된 설계에 해당한다.
 2. 불변성(immutable) 보장
-    - 1번과 비슷한 맥락으로 생성 시점에 결정된 후 절대 수정되지 않으므로 불변성을 보장한다.
-    - 만약 수정될 수 있어야 하는 경우(optional한 의존성 등) Setter 주입을 사용하는 것이 좋다.
+   * 1번과 비슷한 맥락으로 생성 시점에 결정된 후 절대 수정되지 않으므로 불변성을 보장한다.
+   * 만약 수정될 수 있어야 하는 경우(optional한 의존성 등) Setter 주입을 사용하는 것이 좋다.
 3. 테스트 코드 작성에 용이
-    - POJO를 이용해 테스트 코드를 작성할 수 있다.
+   * POJO를 이용해 테스트 코드를 작성할 수 있다.
 
 ### 주의할 점
 
@@ -126,7 +125,7 @@ public class Conf {
 
 주입 대상을 한정할 수 없는 경우에는, 한정자 어노테이션 `@Qualifier`를 통해 대상을 지정하면 된다.
 
----
+
 
 ## @Qualifier
 
@@ -170,7 +169,7 @@ public MyDepClass myDepClass() {
 }
 ```
 
----
+
 
 ## 의존성의 필수 여부 지정
 
@@ -178,44 +177,41 @@ public MyDepClass myDepClass() {
 
 의존성의 필수 여부는 다음의 세 가지를 통해 지정한다.
 
-1. @Autowired(required = false)
-    
+1.  @Autowired(required = false)
+
     ```java
     public class MyDepClass {
-    
+
     	@Autowired(required = false)
     	private MyClass myClass;
-    
+
     }
     ```
-    
-2. @Nullable
-    
+2.  @Nullable
+
     ```java
     public class MyDepClass {
-    
+
     	@Autowired
     	@Nullable
     	private MyClass myClass;
-    
+
     }
     ```
-    
-3. (Spring 5 이상) 주입 대상을 Optional로 선언
-    
+3.  (Spring 5 이상) 주입 대상을 Optional로 선언
+
     ```java
     public class MyDepClass {
-    
+
     	private MyClass myClass;
-    
+
     	public MyDepClass(Optional<MyClass> myClassOpt) {
     		if (myClassOpt.isPresent()) this.myClass = myClassOpt.get();
     		else this.myClass = null;
     	}
-    
+
     }
     ```
-    
 
 1번과 2,3번의 차이는 필드에 접근하는가 여부이다.
 

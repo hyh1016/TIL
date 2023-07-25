@@ -1,4 +1,4 @@
-# 🍃 Spring MVC
+# Spring MVC
 
 ## 정의
 

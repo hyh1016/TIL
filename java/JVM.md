@@ -1,4 +1,4 @@
-# 🗃 JVM
+# JVM
 
 ## JVM (Java Virtual Machine)
 
@@ -6,20 +6,19 @@ Java로 작성된 소스 코드(프로그램)를 실행하기 위한 프로그�
 
 ## JVM의 목적
 
-1. JVM은 Java 프로그램을 어떤 OS든 동일하게 동작하도록 만든다.
-즉, OS에 의존적이지 않도록 한다.
+1. JVM은 Java 프로그램을 어떤 OS든 동일하게 동작하도록 만든다. 즉, OS에 의존적이지 않도록 한다.
 2. JVM은 Java 프로그램이 효율적으로 실행될 수 있도록 `메모리를 관리`하고 `최적화`한다.
 
 ## JAVA 프로그램의 실행 절차
 
-![java-execution-structure](./imgs/java-execution-structure.png)
+![java-execution-structure](imgs/java-execution-structure.png)
 
 ### 구성 요소
 
-- `자바 컴파일러(javac)`: 자바 소스코드(.java)를 실행 가능한 바이트코드(.class)로 변환
-- `클래스 로더`: 외부 클래스를 가져와 로드하고 메모리 영역에 배치
-- `실행 엔진`: 바이트 코드를 실행
-- `런타임 시스템`: JVM이 할당받아 관리하는 메모리 영역이 이에 포함된다.
+* `자바 컴파일러(javac)`: 자바 소스코드(.java)를 실행 가능한 바이트코드(.class)로 변환
+* `클래스 로더`: 외부 클래스를 가져와 로드하고 메모리 영역에 배치
+* `실행 엔진`: 바이트 코드를 실행
+* `런타임 시스템`: JVM이 할당받아 관리하는 메모리 영역이 이에 포함된다.
 
 ### 동작 절차
 

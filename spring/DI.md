@@ -1,9 +1,11 @@
-# 💉 DI (Dependency Injection, 의존성 주입)
+# DI (Dependency Injection, 의존성 주입)
 
-> ### Spring Framework의 핵심 개념 3가지
+> #### Spring Framework의 핵심 개념 3가지
+>
 > 소스 코드의 복잡도를 줄이고, 효율을 높이고, 유지보수를 용이하게 하기 위해 Spring에서는 다음의 3가지를 이용한다.
+>
 > 1. **DI**
-> 2. [IoC Container](IoC_Container.md)
+> 2. [IoC Container](IoC\_Container.md)
 > 3. [AOP](AOP.md)
 
 ## DI의 정의

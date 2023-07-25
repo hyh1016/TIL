@@ -1,4 +1,4 @@
-# 🗨 Thymeleaf
+# Thymeleaf
 
 ## 정의
 
@@ -47,7 +47,7 @@ member.register=test message
 <a href="#" th:href="@{/member/{memberId}(memberId=${member.id})}">링크</a>
 ```
 
-### 객체 표현식: *{필드}
+### 객체 표현식: \*{필드}
 
 ```java
 <div th:object="${member}">

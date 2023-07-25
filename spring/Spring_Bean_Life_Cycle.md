@@ -1,4 +1,4 @@
-# 🍃 Spring Bean의 생명주기(life-cycle)
+# Spring Bean의 생명주기(life-cycle)
 
 ## 빈의 생명주기
 
@@ -6,7 +6,7 @@
 
 따라서 해당 글에서의 빈의 생명주기는 빈 스코프를 싱글톤으로 설정했을 때라고 가정한다.
 
-빈 스코프는 [해당 게시물](./Bean_Scope.md) 참조
+빈 스코프는 [해당 게시물](Bean\_Scope.md) 참조
 
 ## 스프링 컨테이너의 생명주기
 
@@ -34,18 +34,15 @@ public class Main {
 }
 ```
 
-1. 컨테이너 초기화
-    
+1.  컨테이너 초기화
+
     스프링 컨테이너가 생성된다. 스프링 컨테이너는 생성자의 인자로 전달되는 설정 클래스(@Configuration이 적용된 클래스)에서 정보를 읽어와 빈을 생성하고 연결(의존성 주입)한다.
-    
-2. 컨테이너 사용
-    
+2.  컨테이너 사용
+
     컨테이너가 초기화되고 나면 getBean을 통해 등록된 빈을 이용할 수 있다.
-    
-3. 컨테이너 종료
-    
+3.  컨테이너 종료
+
     컨테이너의 사용이 끝나면 컨테이너를 종료한다. 이 때 빈 객체도 모두 소멸한다.
-    
 
 ## 스프링 빈의 생명주기
 
@@ -60,61 +57,58 @@ public class Main {
 
 ### 빈 객체의 초기화와 소멸
 
-- 초기화
-    
+*   초기화
+
     InitializingBean 인터페이스를 구현한 뒤 afterPropertiesSet 메서드를 오버라이딩하면 된다.
-    
+
     ```java
     public interface InitializingBean {
     	void afterPropertiesSet() throw Exception;
     }
     ```
-    
-- 소멸
-    
+*   소멸
+
     DisposableBean 인터페이스를 구현한 뒤 destroy 메서드를 오버라이딩하면 된다.
-    
+
     ```java
     public interface DisposableBean {
     	void destroy() throw Exception;
     }
     ```
-    
-- 예시
-    
+*   예시
+
     ```java
     package com.yihyun.introduction;
-    
+
     import org.springframework.beans.factory.DisposableBean;
     import org.springframework.beans.factory.InitializingBean;
     import org.springframework.stereotype.Component;
-    
+
     @Component
     public class MyClass implements InitializingBean, DisposableBean {
-    
+
         private String name;
-    
+
         public void print() {
             System.out.println("hello " + name);
         }
-    
+
         public void setName(String name) {
             this.name = name;
         }
-    
+
         @Override
         public void afterPropertiesSet() throws Exception {
             System.out.println("myClass Bean 초기화");
         }
-    
+
         @Override
         public void destroy() throws Exception {
             System.out.println("myClass Bean 소멸");
         }
     }
-    
+
     ```
-    
 
 ### 외부 클래스를 빈으로 등록하는 경우의 초기화와 소멸
 

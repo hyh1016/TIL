@@ -1,4 +1,4 @@
-# 🔁 Type Casting
+# Type Casting
 
 ### 기본형 → 문자열: `parse~(str)`
 

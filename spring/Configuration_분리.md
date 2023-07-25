@@ -1,5 +1,4 @@
-
-# 🍃 여러 개의 @Configuration(설정 파일)을 사용하는 방법
+# 여러 개의 @Configuration(설정 파일)을 사용하는 방법
 
 빈의 수가 많아지면 한 눈에 알아보기 복잡해진다.
 
@@ -36,7 +35,8 @@ public class Conf {
 }
 ```
 
----
+
 
 #### 출처
-- [최범균 저. 2018. 스프링 5 프로그래밍 입문](http://www.yes24.com/Product/Goods/62268795)
+
+* [최범균 저. 2018. 스프링 5 프로그래밍 입문](http://www.yes24.com/Product/Goods/62268795)

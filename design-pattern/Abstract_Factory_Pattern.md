@@ -1,10 +1,10 @@
-# 📜 Abstract Factory Pattern
+# Abstract Factory Pattern
 
 ## Abstract Factory Pattern (추상 팩토리 패턴)
 
-![Abstract-Factory](./imgs/abstract-factory-pattern-(0).png)
+![Abstract-Factory](imgs/abstract-factory-pattern-\(0\).png)
 
-해당 패턴은 [팩토리 메소드 패턴](./Factory_Method_Pattern.md)과 함께 보는 것이 좋다.
+해당 패턴은 [팩토리 메소드 패턴](Factory\_Method\_Pattern.md)과 함께 보는 것이 좋다.
 
 팩토리 메소드 패턴을 이용하면 인스턴스를 생성할 책임을 분리하여 새로운 서브타입이 추가되어도 팩토리 클래스만 수정될 뿐 팩토리 객체를 이용하는 클래스는 수정되지 않는다.
 
@@ -12,15 +12,15 @@
 
 ### 구성 요소
 
-- `AbstractFactory` - Product를 생성하기 위한 클래스를 추상화한 것. 기존에 Product의 서브타입을 생성하던 객체(Client)가 이에 의존하게 되어 구체적인 것이 아닌 추상적인 것에 의존하도록 설계를 변경한다.
-- `ConcreteFactory` - 각 (클라이언트가 요구하는) 완성물 내 부품들을 만들고 조합하기 위한 팩토리
-- `AbstractProduct` - 각 완성물 내 부품들
-- `Product` - 각 부품들의 서브타입
+* `AbstractFactory` - Product를 생성하기 위한 클래스를 추상화한 것. 기존에 Product의 서브타입을 생성하던 객체(Client)가 이에 의존하게 되어 구체적인 것이 아닌 추상적인 것에 의존하도록 설계를 변경한다.
+* `ConcreteFactory` - 각 (클라이언트가 요구하는) 완성물 내 부품들을 만들고 조합하기 위한 팩토리
+* `AbstractProduct` - 각 완성물 내 부품들
+* `Product` - 각 부품들의 서브타입
 
 ### 특징
 
-- 사실상 팩토리 메소드 패턴을 한 번 더 캡슐화하는 과정에 가깝다.
-- 각 팩토리의 인스턴스는 하나씩만 생성하면 되기 때문에 싱글톤과 함께 쓰일 때가 많다.
+* 사실상 팩토리 메소드 패턴을 한 번 더 캡슐화하는 과정에 가깝다.
+* 각 팩토리의 인스턴스는 하나씩만 생성하면 되기 때문에 싱글톤과 함께 쓰일 때가 많다.
 
 ### 팩토리 메소드와 추상 팩토리
 
@@ -36,4 +36,4 @@
 
 최종 클래스 다이어그램은 다음과 같이 형성된다.
 
-![Abstract-Factory-Example](./imgs/abstract-factory-pattern-(1).png)
+![Abstract-Factory-Example](imgs/abstract-factory-pattern-\(1\).png)
