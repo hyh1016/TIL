@@ -129,6 +129,7 @@
 - [Item 29. use generic type](/java/effective-java/Item_29._use_generic_type.md)
 - [Item 3. singleton](/java/effective-java/Item_3._singleton.md)
 - [Item 30. use generic method](/java/effective-java/Item_30._use_generic_method.md)
+- [Item 31. use wildcard type](/java/effective-java/Item_31._use_wildcard_type.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
