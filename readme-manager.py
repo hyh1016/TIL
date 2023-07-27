@@ -14,7 +14,7 @@ readme_template = """
 
 """
 
-exclude = ['.git', '.github', 'readme-manager.py', 'README.md', 'imgs']  # README에서 제외할 디렉토리
+exclude = { '.git', '.github', 'readme-manager.py', 'README.md', 'SUMMARY.md', 'imgs' }  # README에서 제외할 디렉토리
 
 
 def search_directory(root, directory, depth):
