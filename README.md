@@ -133,6 +133,7 @@
 - [Item 32. varargs with generic](/java/effective-java/Item_32._varargs_with_generic.md)
 - [Item 33. type safe heterogeneous container](/java/effective-java/Item_33._type_safe_heterogeneous_container.md)
 - [Item 34. enum type](/java/effective-java/Item_34._enum_type.md)
+- [Item 35. don't use enum ordinal](/java/effective-java/Item_35._don't_use_enum_ordinal.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
