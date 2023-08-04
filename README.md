@@ -76,7 +76,7 @@
 
 ## etc
 
-- [Block vs Non-block, Sync vs Async](/etc/Block_vs_Non-block,_Sync_vs_Async.md)
+- [Gradle](/etc/Gradle.md)
 
 ## git
 
@@ -151,6 +151,10 @@
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [Subnet](/network/Subnet.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
+
+## operating-system
+
+- [Block vs Non-block, Sync vs Async](/operating-system/Block_vs_Non-block,_Sync_vs_Async.md)
 
 ## python
 
