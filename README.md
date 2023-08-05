@@ -134,7 +134,7 @@
 - [Item 33. type safe heterogeneous container](/java/effective-java/Item_33._type_safe_heterogeneous_container.md)
 - [Item 34. enum type](/java/effective-java/Item_34._enum_type.md)
 - [Item 35. don't use enum ordinal](/java/effective-java/Item_35._don't_use_enum_ordinal.md)
-- [Item 36. enumset](/java/effective-java/Item_36._enumset.md)
+- [Item 36. EnumSet](/java/effective-java/Item_36._EnumSet.md)
 - [Item 37. EnumMap](/java/effective-java/Item_37._EnumMap.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
