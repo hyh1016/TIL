@@ -137,6 +137,7 @@
 - [Item 36. EnumSet](/java/effective-java/Item_36._EnumSet.md)
 - [Item 37. EnumMap](/java/effective-java/Item_37._EnumMap.md)
 - [Item 38. use interface for extend enum](/java/effective-java/Item_38._use_interface_for_extend_enum.md)
+- [Item 39. annotation](/java/effective-java/Item_39._annotation.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
