@@ -139,6 +139,8 @@
 - [Item 38. use interface for extend enum](/java/effective-java/Item_38._use_interface_for_extend_enum.md)
 - [Item 39. annotation](/java/effective-java/Item_39._annotation.md)
 - [Item 4. private constructor](/java/effective-java/Item_4._private_constructor.md)
+- [Item 40. @Override](/java/effective-java/Item_40._@Override.md)
+- [Item 41. marker interface](/java/effective-java/Item_41._marker_interface.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
