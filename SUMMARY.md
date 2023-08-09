@@ -57,7 +57,7 @@
   * [Docker](docker/Docker.md)
   * [Docker Network](docker/Docker\_Network.md)
 * [etc](etc/README.md)
-  * [Block vs Non-block, Sync vs Async](etc/Block\_vs\_Non-block,\_Sync\_vs\_Async.md)
+  * [Block vs Non-block, Sync vs Async](etc/block-vs-non-block-sync-vs-async.md)
 * [git](git/README.md)
   * [Git Merge vs Git Rebase](git/Git\_Merge\_vs\_Git\_Rebase.md)
   * [자주 사용하는 Git 명령어 모음](git/자주\_사용하는\_Git\_명령어\_모음.md)
