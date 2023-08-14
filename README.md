@@ -145,6 +145,7 @@
 - [Item 42. replace anonymous class with lambda](/java/effective-java/Item_42._replace_anonymous_class_with_lambda.md)
 - [Item 43. method reference](/java/effective-java/Item_43._method_reference.md)
 - [Item 44. default functional interface](/java/effective-java/Item_44._default_functional_interface.md)
+- [Item 45. stream](/java/effective-java/Item_45._stream.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
