@@ -151,6 +151,7 @@
 - [Item 48. stream parallel](/java/effective-java/Item_48._stream_parallel.md)
 - [Item 49. validate parameter](/java/effective-java/Item_49._validate_parameter.md)
 - [Item 5. dependency injection](/java/effective-java/Item_5._dependency_injection.md)
+- [Item 50. make defensive copies](/java/effective-java/Item_50._make_defensive_copies.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
