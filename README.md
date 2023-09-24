@@ -157,6 +157,7 @@
 - [Item 53. varargs](/java/effective-java/Item_53._varargs.md)
 - [Item 54. return array or collections instead of null](/java/effective-java/Item_54._return_array_or_collections_instead_of_null.md)
 - [Item 54. use optional judiciously](/java/effective-java/Item_54._use_optional_judiciously.md)
+- [Item 56. write javadoc](/java/effective-java/Item_56._write_javadoc.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
