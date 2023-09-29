@@ -161,6 +161,7 @@
 - [Item 56. write javadoc](/java/effective-java/Item_56._write_javadoc.md)
 - [Item 57. minimize scope of local variable](/java/effective-java/Item_57._minimize_scope_of_local_variable.md)
 - [Item 58. for-each](/java/effective-java/Item_58._for-each.md)
+- [Item 59. use library](/java/effective-java/Item_59._use_library.md)
 - [Item 6. reuse instance](/java/effective-java/Item_6._reuse_instance.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
