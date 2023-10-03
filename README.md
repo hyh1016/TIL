@@ -90,6 +90,8 @@
 - [Exception Handling](/java/Exception_Handling.md)
 - [Generic](/java/Generic.md)
 - [JVM](/java/JVM.md)
+- [Java21 Improvement Record, Switch](/java/Java21_Improvement_Record,_Switch.md)
+- [Java21 Sequenced Collections](/java/Java21_Sequenced_Collections.md)
 - [Java 코드의 실행 과정](/java/Java_코드의_실행_과정.md)
 - [Lambda Expression](/java/Lambda_Expression.md)
 - [Object Class](/java/Object_Class.md)
