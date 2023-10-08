@@ -168,6 +168,7 @@
 - [Item 60. if you need accurate answer, avoid float and double](/java/effective-java/Item_60._if_you_need_accurate_answer,_avoid_float_and_double.md)
 - [Item 61. use primitive type instead of wrapper](/java/effective-java/Item_61._use_primitive_type_instead_of_wrapper.md)
 - [Item 62. avoid string](/java/effective-java/Item_62._avoid_string.md)
+- [Item 63. avoid concat string](/java/effective-java/Item_63._avoid_concat_string.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
