@@ -173,6 +173,7 @@
 - [Item 64. refer interface](/java/effective-java/Item_64._refer_interface.md)
 - [Item 65. reflection](/java/effective-java/Item_65._reflection.md)
 - [Item 66. avoid using native method](/java/effective-java/Item_66._avoid_using_native_method.md)
+- [Item 67. optimize judiciously](/java/effective-java/Item_67._optimize_judiciously.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
