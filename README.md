@@ -177,6 +177,7 @@
 - [Item 68. naming convention](/java/effective-java/Item_68._naming_convention.md)
 - [Item 69. use exceptions only for exceptional conditions](/java/effective-java/Item_69._use_exceptions_only_for_exceptional_conditions.md)
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
+- [Item 70. checked, unchecked exception](/java/effective-java/Item_70._checked,_unchecked_exception.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 
