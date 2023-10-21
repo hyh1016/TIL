@@ -179,6 +179,7 @@
 - [Item 7. eliminate unused reference](/java/effective-java/Item_7._eliminate_unused_reference.md)
 - [Item 70. checked, unchecked exception](/java/effective-java/Item_70._checked,_unchecked_exception.md)
 - [Item 71. avoid using unnecessary checked exceptions](/java/effective-java/Item_71._avoid_using_unnecessary_checked_exceptions.md)
+- [Item 72. use default exception](/java/effective-java/Item_72._use_default_exception.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 
