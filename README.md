@@ -182,6 +182,7 @@
 - [Item 72. use default exception](/java/effective-java/Item_72._use_default_exception.md)
 - [Item 73. translate low level exception](/java/effective-java/Item_73._translate_low_level_exception.md)
 - [Item 74. documentation exceptions thrown by method](/java/effective-java/Item_74._documentation_exceptions_thrown_by_method.md)
+- [Item 75. include failure capture information in detail messages](/java/effective-java/Item_75._include_failure_capture_information_in_detail_messages.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 
