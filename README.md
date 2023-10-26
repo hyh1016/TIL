@@ -184,6 +184,7 @@
 - [Item 74. documentation exceptions thrown by method](/java/effective-java/Item_74._documentation_exceptions_thrown_by_method.md)
 - [Item 75. include failure capture information in detail messages](/java/effective-java/Item_75._include_failure_capture_information_in_detail_messages.md)
 - [Item 76. strive for failure atomicity](/java/effective-java/Item_76._strive_for_failure_atomicity.md)
+- [Item 77. don't ignore exceptions](/java/effective-java/Item_77._don't_ignore_exceptions.md)
 - [Item 8. avoid using finalizer, cleaner](/java/effective-java/Item_8._avoid_using_finalizer,_cleaner.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 
