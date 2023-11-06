@@ -193,6 +193,7 @@
 - [Item 82. document thread safety](/java/effective-java/Item_82._document_thread_safety.md)
 - [Item 83. use lazy initialization judiciously](/java/effective-java/Item_83._use_lazy_initialization_judiciously.md)
 - [Item 84. don't depend on the thread scheduler](/java/effective-java/Item_84._don't_depend_on_the_thread_scheduler.md)
+- [Item 85. prefer alternatives to java serialization](/java/effective-java/Item_85._prefer_alternatives_to_java_serialization.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 
 ## linux
