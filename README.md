@@ -199,6 +199,7 @@
 - [Item 88. write readObject methods defensively](/java/effective-java/Item_88._write_readObject_methods_defensively.md)
 - [Item 89. for instance control, prefer enum types to readResolve](/java/effective-java/Item_89._for_instance_control,_prefer_enum_types_to_readResolve.md)
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
+- [Item 90. consider serialization proxies instead of serialized instances](/java/effective-java/Item_90._consider_serialization_proxies_instead_of_serialized_instances.md)
 
 ## linux
 
