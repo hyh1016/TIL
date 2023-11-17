@@ -68,6 +68,7 @@
 - [Template Method Pattern](/design-pattern/Template_Method_Pattern.md)
 - [UML](/design-pattern/UML.md)
 - [객체지향 패러다임](/design-pattern/객체지향_패러다임.md)
+- [결합도와 응집도](/design-pattern/결합도와_응집도.md)
 
 ## docker
 
