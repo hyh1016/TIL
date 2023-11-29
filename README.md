@@ -83,6 +83,7 @@
 ## git
 
 - [Git Merge vs Git Rebase](/git/Git_Merge_vs_Git_Rebase.md)
+- [Interactive Rebase](/git/Interactive_Rebase.md)
 - [자주 사용하는 Git 명령어 모음](/git/자주_사용하는_Git_명령어_모음.md)
 
 ## java
