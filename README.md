@@ -203,6 +203,10 @@
 - [Item 9. try-with-resources](/java/effective-java/Item_9._try-with-resources.md)
 - [Item 90. consider serialization proxies instead of serialized instances](/java/effective-java/Item_90._consider_serialization_proxies_instead_of_serialized_instances.md)
 
+### jpa
+
+- [@DynamicInsert, @DynamicUpdate](/java/jpa/@DynamicInsert,_@DynamicUpdate.md)
+
 ## linux
 
 - [Linux의 Permission](/linux/Linux의_Permission.md)
