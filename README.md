@@ -91,6 +91,7 @@
 - [Annotation](/java/Annotation.md)
 - [Exception Handling](/java/Exception_Handling.md)
 - [Generic](/java/Generic.md)
+- [Graceful shutdown](/java/Graceful_shutdown.md)
 - [JVM](/java/JVM.md)
 - [Java21 Improvement Record, Switch](/java/Java21_Improvement_Record,_Switch.md)
 - [Java21 Sequenced Collections](/java/Java21_Sequenced_Collections.md)
