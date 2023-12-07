@@ -208,6 +208,10 @@
 
 - [@DynamicInsert, @DynamicUpdate](/java/jpa/@DynamicInsert,_@DynamicUpdate.md)
 
+### querydsl
+
+- [QueryDSL Setup](/java/querydsl/QueryDSL_Setup.md)
+
 ## linux
 
 - [Linux의 Permission](/linux/Linux의_Permission.md)
