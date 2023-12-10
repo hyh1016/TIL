@@ -108,6 +108,7 @@
 - [Tiles](/java/Tiles.md)
 - [Type Casting](/java/Type_Casting.md)
 - [Why is sort() a static method](/java/Why_is_sort()_a_static_method.md)
+- [map vs flatMap](/java/map_vs_flatMap.md)
 - [추상클래스와 인터페이스의 차이](/java/추상클래스와_인터페이스의_차이.md)
 
 ### effective-java
