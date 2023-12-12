@@ -208,6 +208,7 @@
 ### jpa
 
 - [@DynamicInsert, @DynamicUpdate](/java/jpa/@DynamicInsert,_@DynamicUpdate.md)
+- [JPA Entity Equality](/java/jpa/JPA_Entity_Equality.md)
 
 ### querydsl
 
