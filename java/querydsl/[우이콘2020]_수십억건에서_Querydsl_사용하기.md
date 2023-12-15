@@ -87,3 +87,28 @@ public class CustomEntityRepository {
     - 서브쿼리는 비효율적이기도 하지만 `JPQL에서 지원되지 않음`
         - JPQL에서 지원되지 않는다는 것은 곧 Querydsl JPA에서도 지원되지 않는다는 뜻
     - 먼저 PK를 커버링 인덱스로 필요한 id를 모두 조회하고, where in 절을 통해 필요한 컬럼들을 모두 조회
+
+## Update 최적화
+
+### 일괄 Update 최적화
+
+- 대용량 데이터를 업데이트할 때에는 Dirty Checking를 통한 업데이트보다 Querydsl의 update 메서드를 통한 일괄 업데이트 성능이 훨씬 뛰어남
+- 하지만 일괄 업데이트 방식은 `Hibernate 캐시를 갱신해주지 않는다`는 문제점 존재
+- 일괄 업데이트 후 업데이트된 데이터를 얻으려면 직접 캐시 방출을 해 줘야 하는 불편함이 존재
+- 따라서 두 개를 적재적소에 잘 활용해야 함
+    - DirtyChecking 방식 - 실시간으로 변경을 감지해야 하고, 단건을 처리하고자 할 때
+    - Querydsl.update 방식 - 대량의 데이터를 일괄적으로 업데이트해야 하고, Hibernate 캐시 갱신에 의한 로직이 없는 경우
+- 위의 Select 최적화와 연관지어보자면, 대량의 데이터를 조회 및 수정하고자 하는 경우 반드시 엔티티 조회가 필요한 경우가 아니라면 `Dto를 통해 필요한 항목들만 조회하고 일괄 업데이트를 적용하는 것`이 효율적인 방법임을 알 수 있음
+
+## Insert 최적화
+
+### JPA Bulk Insert는 자제
+
+- JPA에서 merge, persist 메서드를 이용해 엔티티를 저장하는 것은 JdbcTemplate을 직접 이용해 Batch 메서드를 통해 일괄 저장을 하는 것보다 훨씬 비효율적임
+- 그렇다고 JdbcTemplate을 사용하자니 JPA를 사용할 때 누릴 수 있는 Type Safe한 특징을 잃는 것이 아쉬움
+    - 이는 컴파일 타임에 오류를 발견하기 어려워져 런타임 오류를 발생시키고 오류의 추적을 어렵게 만듦
+- 그래서 Querydsl의 다른 하위 모듈인 Querydsl-SQL을 이용하는 방법이 있음
+    - Querydsl이라는 추상화된 상위 계층에 대해 Querydsl-JPA가 JPQL을 만들어주는 하위 모듈이라면, Querydsl-SQL은 Native SQL 쿼리를 만들어주는 하위 모듈
+- 하지만 Querydsl-SQL은 ORM 기반이 아니라 기존 JPA Entity 객체들을 기반으로 QClass를 생성할 수 없고, Querydsl-SQL을 위한 QClass를 만드는 방식이 너무 복잡하기 때문에, 본 강연에서는 JPA Entity를 기반으로 Querydsl-SQL QClass를 생성할 수 있도록 하는 오픈소스인 EntityQL을 소개하고 있음
+- 하지만 이 또한 다양한 제약 사항이 존재하고, [해당 오픈소스 리포지토리](https://github.com/eXsio/querydsl-entityql)에 들어가보니 본 강연이 있었던 2020년 1월 이후로 새 릴리즈가 없음
+- 따라서 이 부분에서는 EntityQL을 사용하자! 가 **아니라**, `상황에 따라 ORM과 Native Query 중 더 적합한 방안을 고르는 능력이 필요`하며, `JPA/Querydsl은 생성되는 쿼리를 제어하는 것이 어려운 만큼 실제로 실행되는 쿼리를 잘 확인`해야 한다는 교훈에 집중할 것
