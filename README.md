@@ -210,6 +210,7 @@
 - [@DynamicInsert, @DynamicUpdate](/java/jpa/@DynamicInsert,_@DynamicUpdate.md)
 - [JPA Cascade](/java/jpa/JPA_Cascade.md)
 - [JPA Entity Equality](/java/jpa/JPA_Entity_Equality.md)
+- [JPA bulk update](/java/jpa/JPA_bulk_update.md)
 - [Open Session In View](/java/jpa/Open_Session_In_View.md)
 
 ### junit
