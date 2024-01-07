@@ -268,6 +268,7 @@
 - [Profile](/spring/Profile.md)
 - [Properties](/spring/Properties.md)
 - [Spring Bean Life Cycle](/spring/Spring_Bean_Life_Cycle.md)
+- [Spring Event](/spring/Spring_Event.md)
 - [Spring vs SpringBoot](/spring/Spring_vs_SpringBoot.md)
 - [Thymeleaf](/spring/Thymeleaf.md)
 
