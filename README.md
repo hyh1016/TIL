@@ -230,6 +230,7 @@
 
 ## network
 
+- [HTTP의 진화와 버전별 특징](/network/HTTP의_진화와_버전별_특징.md)
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [Subnet](/network/Subnet.md)
 - [그림으로 배우는 http & network basic](/network/그림으로_배우는_http_&_network_basic.md)
