@@ -216,6 +216,7 @@
 - [JPA Entity Equality](/java/jpa/JPA_Entity_Equality.md)
 - [JPA bulk update](/java/jpa/JPA_bulk_update.md)
 - [Open Session In View](/java/jpa/Open_Session_In_View.md)
+- [save() vs saveAndFlush()](/java/jpa/save()_vs_saveAndFlush().md)
 
 ### junit
 
