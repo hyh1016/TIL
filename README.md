@@ -79,6 +79,7 @@
 ## etc
 
 - [Gradle](/etc/Gradle.md)
+- [Gradle daemon](/etc/Gradle_daemon.md)
 - [block-vs-non-block-sync-vs-async](/etc/block-vs-non-block-sync-vs-async.md)
 
 ## git
