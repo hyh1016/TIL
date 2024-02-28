@@ -232,6 +232,7 @@
 ## linux
 
 - [Linux의 Permission](/linux/Linux의_Permission.md)
+- [kill](/linux/kill.md)
 
 ## network
 
