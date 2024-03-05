@@ -255,7 +255,6 @@
 - [CI&CD](/server/CI&CD.md)
 - [Cache](/server/Cache.md)
 - [Cloud Service](/server/Cloud_Service.md)
-- [REST API](/server/REST_API.md)
 - [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
 
 ## spring
@@ -320,6 +319,7 @@
 - [OAuth](/web/OAuth.md)
 - [PRG Pattern](/web/PRG_Pattern.md)
 - [Query Parameter & Path Variable](/web/Query_Parameter_&_Path_Variable.md)
+- [REST](/web/REST.md)
 - [Status Code](/web/Status_Code.md)
 - [WebSocket](/web/WebSocket.md)
 - [application octet stream](/web/application_octet_stream.md)
