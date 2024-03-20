@@ -271,6 +271,7 @@
 - [Component vs Bean](/spring/Component_vs_Bean.md)
 - [Configuration 분리](/spring/Configuration_분리.md)
 - [DI](/spring/DI.md)
+- [Embedded tomcat](/spring/Embedded_tomcat.md)
 - [Filter, Interceptor, Spring AOP](/spring/Filter,_Interceptor,_Spring_AOP.md)
 - [IoC Container](/spring/IoC_Container.md)
 - [Nested Class의 Bean 등록](/spring/Nested_Class의_Bean_등록.md)
