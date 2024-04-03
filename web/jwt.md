@@ -1,6 +1,8 @@
 # JWT
 
-## 등장 계기
+## JWT(JSON Web Token)
+
+### 등장 계기
 
 기존에는 [**쿠키-세션 방식**](cookie-session.md)을 통해 사용자 인증을 수행하였다. 이 방법은 서버가 사용자를 식별하기 위해 사용자의 정보를 서버에 저장하고 있어야 했고, 이는 다음의 문제를 발생시켰다.
 
@@ -9,46 +11,97 @@
 
 따라서 Stateful 방식으로 사용자 정보를 관리하는 것에 어려움을 느끼게 되었고, 이에 대한 대안으로 등장한 Stateless 방식의 인증 기법이 바로 **Token을 이용한 인증 기법**이다.
 
-## JWT(JSON Web Token)
+### 정의
 
-토큰 중에서도 JSON 형식의 데이터를 이용하는 토큰
+- JSON 형식의 데이터를 이용하는 토큰
+- jwt 는 검증 가능한(can be verified) 데이터 통신을 위한 것
+    - **주의. 암호화된 데이터 통신을 위한 것이 아님!!!**
+- 내부의 데이터는 **누구나 볼 수 있음** 하지만 변조는 불가능
+    - SIGNATURE 부분은 헤더, 페이로드를 기반으로 secret key(HMAC) 또는 public/private key pair(RSA/ECDSA)를 사용한 알고리즘을 통해 계산됨
+    - 따라서, SIGNATURE 부분이 변경되면 유효하지 않은 것으로 판단
+        - header, body가 변조되었거나 이들을 암호화하는 알고리즘 또는 key 값이 변조되었거나임
+        - header, body가 같고 암호화 알고리즘과 key 값 모두 같아야 signature가 같기 때문
 
-## JWT Format
+### 구조
 
-JWT는 3개의 요소인 `Header`, `Payload`, `Signature`로 구성된다.
+```java
+header.payload.signature
+```
 
-각 요소는 문자열로 인코딩되며, 디코딩하면 JSON 형태의 데이터를 얻을 수 있다.
+- 3가지 구역은 각각에 해당하는 json 데이터를 BASE64로 인코딩한 것
+- 각 json의 키값은 compact하게 표현하는 것을 권장함
 
-* **Header**
-  * 헤더는 typ, alg로 구성된다.
-  * typ: 토큰의 타입을 지정 (ex: JWT)
-  * alg: 암호화 알고리즘을 지정 (ex: SHA256)
-* **Payload**
-  * 페이로드는 해당 토큰을 통해 얻고자 하는 정보들로 구성된다.
-  * 이는 클레임(Claim)이라고 부른다.
-* **Signature**
-  * 토큰을 인코딩하거나 유효성을 검증할 때 사용하는 고유 암호화 코드
-  * 다음과 같은 순서를 통해 생성된다.
-    1. 헤더와 페이로드를 각각 BASE64로 인코딩
-    2. 1번의 결과값을 비밀 키를 통해 헤더에서 정의한 알고리즘으로 해싱
-    3. 2번의 결과값을 다시 BASE64로 인코딩
-
-## 사용법
-
-생성된 토큰은 문자열 형태를 가지며, 이는 클라이언트의 로컬 스토리지에 저장되어 서버에게 인증이 필요한 API를 요청할 때 전송되어야 한다.
-
-이를 위해 토큰은 헤더에 실으며, 다음과 같은 형식으로 전송된다.
+1. **Header**
 
 ```java
 {
-	"Authorization": "Bearer {token value}"
+	"alg": "HS256",
+	"typ": "JWT"
 }
 ```
 
-## 인증 흐름
+- sign 과정에서 사용된 알고리즘 (HS256, RSA256 등등…)
+- 토큰의 타입 (JWT)
 
-1. 사용자가 아이디/비밀번호를 통해 로그인을 시도
-2. 서버는 해당 정보가 맞다면 토큰을 발급
-3. 클라이언트(브라우저)는 토큰을 로컬 스토리지에 저장해 둔 뒤 서버에 요청을 보낼 때마다 해당 토큰을 헤더에 실어 보냄
-4. 서버는 토큰을 검증하고, 유효한 토큰이라면 요청에 응답
-   * 주로 유효하지 않은 토큰이거나 토큰이 없다면 `401 Unauthorized`로 응답
+2. **Payload**
+
+```java
+{
+	exp: 1712120600083,
+	id: 12873,
+	name: "alice"
+}
+```
+
+- Claim을 포함한 데이터
+- Claim이란? 해당 데이터에 대한 부가 설명
+    - **`registered`**
+        - 발행자, 만료시간, subject, audience 등
+        - https://datatracker.ietf.org/doc/html/rfc7519#section-4.1
+    - **`public`**
+        - jwt를 사용할 때 사용하는 부가 정보들
+        - https://www.iana.org/assignments/jwt/jwt.xhtml
+        - registered 과 중복되는 것들 있음. 위에 있는 명세 데이터들이 public claim 에 해당
+    - **`private`**
+        - registered, public 에 해당하지 않는 커스텀 데이터
+        - 위 데이터의 id, name 같은 값
+
+3. **Signature**
+
+```json
+HMACSHA256(
+	base64UrlEncoded(header) + "." + base64UrlEncoded(payload),
+	secret key
+)
+```
+
+```json
+RSASHA256(
+	base64UrlEncoded(header) + "." + base64UrlEncoded(payload),
+	public key,
+	private key
+)
+```
+
+- 해당 JWT에 대한 서명. 토큰이 변조되지 않았음을 보장하기 위해 존재
+- 미리 약속된 키를 통해 검증함으로써 이 토큰이 알맞은 사람에게서 발행되었음도 검증 가능
+- 인코딩된 헤더, 페이로드 값, 키값을 기반으로 암호화된 데이터
+
+## 유의 사항
+
+- **보안 위험이 있는 데이터는 넣으면 안 됨. 단순 인코딩된 문자열이므로 누구든 내부 데이터를 확인할 수 있음**
+    - 변조를 방지한다지 데이터를 은닉하는 기능은 없음
+- 보통 Authorization 헤더에 담아 보내는 형식을 사용. 헤더 사이즈가 너무 크면 처리하지 못하는 서버들이 생겨 jwt 토큰 사이즈는 최대한 작게 만드는 것을 권장함
+    - 헤더 크기가 8KB가 넘지 않도록 하는 것이 좋다고 함
+
+## 발급 및 사용 절차
+
+![JWT 발급 및 사용 절차](./images/jwt-flow.png)
+
+1. 클라이언트가 인증 서버에 인증 요청을 한다.
+2. 인증 절차에 통과하면, 인증 서버는 액세스 토큰을 반환한다.
+3. 클라이언트는 토큰과 함께 리소스 서버의 보호 자원에 접근한다.
+
+## 출처
+
+[JWT.IO - JSON Web Tokens Introduction](https://jwt.io/introduction)
