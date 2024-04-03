@@ -330,3 +330,7 @@
 - [cookie-session](/web/cookie-session.md)
 - [jwt](/web/jwt.md)
 - [multipart form data](/web/multipart_form_data.md)
+
+### images
+
+- [jwt-flow](/web/images/jwt-flow.png)
