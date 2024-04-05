@@ -318,6 +318,7 @@
 
 - [Browser Caching](/web/Browser_Caching.md)
 - [CORS](/web/CORS.md)
+- [Forward vs Redirect](/web/Forward_vs_Redirect.md)
 - [HTTP Header](/web/HTTP_Header.md)
 - [HTTP와 HTTPS](/web/HTTP와_HTTPS.md)
 - [OAuth](/web/OAuth.md)
