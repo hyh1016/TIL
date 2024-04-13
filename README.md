@@ -228,6 +228,7 @@
 
 ### querydsl
 
+- [Projection](/java/querydsl/Projection.md)
 - [QueryDSL Setup](/java/querydsl/QueryDSL_Setup.md)
 - [[우이콘2020] 수십억건에서 Querydsl 사용하기](/java/querydsl/[우이콘2020]_수십억건에서_Querydsl_사용하기.md)
 
