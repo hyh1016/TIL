@@ -213,6 +213,7 @@
 ### jpa
 
 - [@DynamicInsert, @DynamicUpdate](/java/jpa/@DynamicInsert,_@DynamicUpdate.md)
+- [Entity Manager](/java/jpa/Entity_Manager.md)
 - [Find by EntityManager vs JPQL select query](/java/jpa/Find_by_EntityManager_vs_JPQL_select_query.md)
 - [JPA Cascade](/java/jpa/JPA_Cascade.md)
 - [JPA Entity Equality](/java/jpa/JPA_Entity_Equality.md)
