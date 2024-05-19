@@ -323,6 +323,7 @@
 
 ## web
 
+- [API](/web/API.md)
 - [Browser Caching](/web/Browser_Caching.md)
 - [CORS](/web/CORS.md)
 - [Forward vs Redirect](/web/Forward_vs_Redirect.md)
