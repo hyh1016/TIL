@@ -239,6 +239,10 @@
 - [QueryDSL Setup](/java/querydsl/QueryDSL_Setup.md)
 - [[우이콘2020] 수십억건에서 Querydsl 사용하기](/java/querydsl/[우이콘2020]_수십억건에서_Querydsl_사용하기.md)
 
+## kubernetes
+
+- [쿠버네티스를 왜 쓰는가](/kubernetes/쿠버네티스를_왜_쓰는가.md)
+
 ## linux
 
 - [Linux의 Permission](/linux/Linux의_Permission.md)
