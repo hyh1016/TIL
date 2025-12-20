@@ -34,6 +34,7 @@
 - [Execution Plan](/database/Execution_Plan.md)
 - [Index](/database/Index.md)
 - [Join Algorithm](/database/Join_Algorithm.md)
+- [MySQL vs MongoDB Connection 관리 전략 비교](/database/MySQL_vs_MongoDB_Connection_관리_전략_비교.md)
 - [MySQL 사용자 권한부여](/database/MySQL_사용자_권한부여.md)
 - [Normalization](/database/Normalization.md)
 - [Row Oriented vs Column Oriented](/database/Row_Oriented_vs_Column_Oriented.md)
