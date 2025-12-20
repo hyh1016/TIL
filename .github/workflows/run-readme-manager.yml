@@ -2,9 +2,8 @@ name: Run Readme Manager
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   update-readme:
@@ -12,7 +11,7 @@ jobs:
     steps:
     
     - name: checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
     
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
@@ -20,6 +19,7 @@ jobs:
         python-version: "3.10"
         
     - name: run readme manager
+      working-directory: ./
       run: python readme-manager.py
 
     - name: check if there are any changes
