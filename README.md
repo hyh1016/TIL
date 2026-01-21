@@ -268,6 +268,10 @@
 
 - [Python의 재귀제한](/python/Python의_재귀제한.md)
 
+## redis
+
+- [Redis의 기본 구조와 동작 방식](/redis/Redis의_기본_구조와_동작_방식.md)
+
 ## server
 
 - [CI&CD](/server/CI&CD.md)
