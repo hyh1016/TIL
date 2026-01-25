@@ -20,7 +20,7 @@ jobs:
         
     - name: run readme manager
       working-directory: ./
-      run: python readme-manager.py
+      run: python scripts/readme-manager.py
 
     - name: check if there are any changes
       id: verify_diff

@@ -14,7 +14,7 @@ readme_template = """
 
 """
 
-exclude = { '.git', '.github', 'readme-manager.py', 'review-bot.py', 'README.md', 'SUMMARY.md', 'imgs' }  # README에서 제외할 디렉토리
+exclude = { '.git', '.github', 'readme-manager.py', 'review-bot.py', 'README.md', 'SUMMARY.md', 'imgs', 'scripts' }  # README에서 제외할 디렉토리
 
 
 def search_directory(root, directory, depth):
@@ -54,7 +54,8 @@ def print_file(file, path):
 
 
 
-root = os.getcwd()
+root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(root)
 README = open(f'{root}/README.md', 'w', encoding='UTF-8')
 directorys = sorted(os.listdir())
 for d in directorys:

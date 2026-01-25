@@ -31,4 +31,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
           REPO_NAME: ${{ github.repository }}
           COMMIT_SHA: ${{ github.sha }}
-        run: python review-bot.py
+        run: python scripts/review-bot.py
