@@ -271,6 +271,7 @@
 ## redis
 
 - [Redis의 기본 구조와 동작 방식](/redis/Redis의_기본_구조와_동작_방식.md)
+- [Redis의 영속화, AOF와 RDB](/redis/Redis의_영속화,_AOF와_RDB.md)
 
 ## server
 
