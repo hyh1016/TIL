@@ -84,6 +84,8 @@
     - for doing database backups, for faster restarts, and in the event of bugs in the AOF engine
     - AOF 파일 자체가 손상될 수도 있고, RDB는 더 빠른 복구를 가능하게 하므로
 - 기본적으로 RDB 파일과 AOF 파일이 모두 있을 때에는 AOF 파일 기반 복구를 더 우선적으로 수행함 (더 정확한 데이터일 것이라 추측하므로)
+- 만약 주 DB가 별도로 있고, Redis를 단순히 캐싱 용도로 사용하려고 한다면 성능 극대화를 위해 RDB, AOF 모두 비활성화하는 것도 방법임
+    - 단, 이 경우 레디스 재기동에 의한 캐시 스탬피드 현상에 유의할 것
 
 ## 혼합(Hybrid) 방식
 
