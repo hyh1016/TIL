@@ -249,6 +249,10 @@
 - [Linux의 Permission](/linux/Linux의_Permission.md)
 - [kill](/linux/kill.md)
 
+## mongodb
+
+- [CSFLE](/mongodb/CSFLE.md)
+
 ## network
 
 - [CIDR](/network/CIDR.md)
