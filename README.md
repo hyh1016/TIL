@@ -259,6 +259,7 @@
 - [Forward Proxy vs Reverse Proxy](/network/Forward_Proxy_vs_Reverse_Proxy.md)
 - [Forward vs Redirect](/network/Forward_vs_Redirect.md)
 - [HTTP의 진화와 버전별 특징](/network/HTTP의_진화와_버전별_특징.md)
+- [L4 vs L7 Load balancer](/network/L4_vs_L7_Load_balancer.md)
 - [OSI 7 Layer](/network/OSI_7_Layer.md)
 - [SSL, TLS](/network/SSL,_TLS.md)
 - [Subnet](/network/Subnet.md)
