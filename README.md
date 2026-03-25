@@ -277,6 +277,7 @@
 
 - [Redis Cluster](/redis/Redis_Cluster.md)
 - [Redis Sentinel](/redis/Redis_Sentinel.md)
+- [Redis 자료구조 종류와 시간 복잡도](/redis/Redis_자료구조_종류와_시간_복잡도.md)
 - [Redis의 Atomicity - Transaction, Lua Script, Lock](/redis/Redis의_Atomicity_-_Transaction,_Lua_Script,_Lock.md)
 - [Redis의 기본 구조와 동작 방식](/redis/Redis의_기본_구조와_동작_방식.md)
 - [Redis의 영속화, AOF와 RDB](/redis/Redis의_영속화,_AOF와_RDB.md)
