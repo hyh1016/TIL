@@ -289,6 +289,7 @@
 - [Cloud Service](/server/Cloud_Service.md)
 - [Rate Limiter](/server/Rate_Limiter.md)
 - [정적 서버와 동적 서버](/server/정적_서버와_동적_서버.md)
+- [트래픽 증가에 따른 점진적 설계 확장](/server/트래픽_증가에_따른_점진적_설계_확장.md)
 
 ## spring
 
