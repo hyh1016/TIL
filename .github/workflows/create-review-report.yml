@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: 'Review할 커밋 해시 (빈 칸이면 마지막 커밋)'
+        required: false
+        default: ''
 
 jobs:
   review:
@@ -30,5 +36,5 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.REPOSITORY_ACCESS_TOKEN }}
           REPO_NAME: ${{ github.repository }}
-          COMMIT_SHA: ${{ github.sha }}
+          COMMIT_SHA: ${{ github.event.inputs.commit_sha || github.sha }}
         run: python scripts/review-bot.py
