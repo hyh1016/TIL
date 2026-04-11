@@ -4,7 +4,7 @@
 
 ### Class 기반 주소 지정 시스템
 
-![Classful Addressing](./imgs/classful-addressing.png)
+![Classful Addressing](imgs/classful-addressing.png)
 
 - 1990년대 초반까지 사용하던 IP 주소 할당 방식
 - 주소의 길이, 네트워크/호스트 부분에 각각 할당되는 비트 수 모두 고정됨
@@ -22,7 +22,7 @@
 
 ### Classless 주소 지정 (CIDR)
 
-![Classless Addressing](./imgs/classless-addressing.png)
+![Classless Addressing](imgs/classless-addressing.png)
 
 - 가변 길이의 서브넷 마스킹을 통해 네트워크/호스트 부분에 할당되는 비트 수 비율을 유동적으로 변경
 - / 이후의 숫자만큼이 네트워크 영역, 나머지가 호스트 영역에 해당

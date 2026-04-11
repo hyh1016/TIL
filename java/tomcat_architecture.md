@@ -12,7 +12,7 @@
 
 ## 톰캣 아키텍처
 
-![tomcat-architecture](./imgs/tomcat-architecture.png)
+![tomcat-architecture](imgs/tomcat-architecture.png)
 https://www3.ntu.edu.sg/home/ehchua/programming/howto/Tomcat_More.html
 
 - 톰캣 **서버**는 여러 개의 **서비스**로 구성

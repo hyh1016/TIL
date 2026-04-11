@@ -4,14 +4,14 @@
 
 - 2021년 출시된 Java 17 이후 2년만에 출시된 Java의 4번째 LTS(Long Term Support) 버전
 - 주요 변화는 다음과 같다.
-    - [Sequenced Collections](./Java21_Sequenced_Collections.md)
+    - [Sequenced Collections](Java21_Sequenced_Collections.md)
     - **Virtual Thread**
-    - [Record, Switch 개선](./Java21_Improvement_Record,_Switch.md)
+    - [Record, Switch 개선](Java21_Improvement_Record,_Switch.md)
 - 이 글에서는 Virtual Thread에 대해 다룬다.
 
 ## 기존의 Java 스레드
 
-![tranditional thread](./imgs/tranditional-thread.png)
+![tranditional thread](imgs/tranditional-thread.png)
 
 - 하나의 스레드가 하나의 OS 스레드와 1:1 관계를 가지며, 동일하게 동작함
     - 고비용이며, 개수가 극히 제한되어 있으며, I/O 작업을 수행하면 blocking
@@ -23,7 +23,7 @@
 
 ## Java 21에 도입된 가상 스레드
 
-![virtual thread](./imgs/virtual-thread.png)
+![virtual thread](imgs/virtual-thread.png)
 
 - 기존 스레드는 `플랫폼 스레드(Platform Thread)`라는 명칭으로, 여전히 Thread Pool 내에 존재
 - 기존 스레드와 `다대다 관계`를 갖는 가상 스레드가 도입됨

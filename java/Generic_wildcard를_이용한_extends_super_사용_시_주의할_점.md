@@ -1,6 +1,6 @@
 # Generic 와일드카드를 이용한 extends, super 사용 시 주의할 점
 
-![generic-with-wildcard](./imgs/generic-with-wildcard.png)
+![generic-with-wildcard](imgs/generic-with-wildcard.png)
 
 ## <? extends Parent>
 

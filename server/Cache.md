@@ -8,7 +8,7 @@
 
 ## Local Cache
 
-![Local Cache](./imgs/local-cache.png)
+![Local Cache](imgs/local-cache.png)
 
 로컬 캐시는 애플리케이션 서버(WAS) 내부에 존재하는 캐시를 말한다.
 
@@ -27,7 +27,7 @@
 
 ## Global Cache
 
-![Global Cache](./imgs/global-cache.png)
+![Global Cache](imgs/global-cache.png)
 
 글로벌 캐시는 별도의 캐시 서버를 두어 해당 서버 내에 저장되는 캐시를 말한다.
 

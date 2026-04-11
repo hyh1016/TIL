@@ -5,8 +5,8 @@
 - 2021년 출시된 Java 17 이후 2년만에 출시된 Java의 4번째 LTS(Long Term Support) 버전
 - 주요 변화는 다음과 같다.
     - **Sequenced Collections**
-    - [Virtual Thread](./Java21_Virtual_Thread.md)
-    - [Record, Switch 개선](./Java21_Improvement_Record,_Switch.md)
+    - [Virtual Thread](Java21_Virtual_Thread.md)
+    - [Record, Switch 개선](Java21_Improvement_Record,_Switch.md)
 - 이 글에서는 Sequenced Collections에 대해 다룬다.
 
 ## Sequenced Collections

@@ -4,7 +4,7 @@
 
 - 한 대의 Redis 서버만 사용하게 되면(Standalone) 이 서버가 죽었을 때 레디스를 사용할 수 없게 됨 (고가용성 필요)
 - 또한 Redis는 In-Memory DB인 만큼 데이터 증가에 의한 Scale-Up이 비용적인 측면에서 RDB보다 더 빠르게 한계가 찾아옴 (확장성 필요)
-- **고가용성이 필요하다면 [Sentinel](./Redis_Sentinel.md)을 도입할 수 있음**
+- **고가용성이 필요하다면 [Sentinel](Redis_Sentinel.md)을 도입할 수 있음**
 - **고가용성과 확장성이 모두 필요하다면 Cluster를 도입할 수 있음**
 
 ## Redis Cluster
