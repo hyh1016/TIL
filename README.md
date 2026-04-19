@@ -253,6 +253,7 @@
 
 - [MongoDB CSFLE](/mongodb/MongoDB_CSFLE.md)
 - [MongoDB ObjectId](/mongodb/MongoDB_ObjectId.md)
+- [MongoDB WiredTiger](/mongodb/MongoDB_WiredTiger.md)
 
 ## network
 
