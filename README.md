@@ -242,6 +242,7 @@
 
 ## kubernetes
 
+- [Taint and Toleration](/kubernetes/Taint_and_Toleration.md)
 - [노드에 파드 할당하기 (Node Selector, Affinity)](/kubernetes/노드에_파드_할당하기_(Node_Selector,_Affinity).md)
 - [쿠버네티스를 왜 쓰는가](/kubernetes/쿠버네티스를_왜_쓰는가.md)
 
